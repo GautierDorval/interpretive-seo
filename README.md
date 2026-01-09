@@ -44,6 +44,29 @@ It does not define:
 - `VERSION` — current version identifier
 - `LICENSE.md` — licensing reference (if present)
 
+## Author
+
+**Gautier Dorval**  
+Architect in interpretive governance and entity disambiguation  
+Quebec, Canada
+
+- 🌐 https://gautierdorval.com/
+- 💼 https://www.linkedin.com/in/gautier-dorval/
+- 📦 https://github.com/GautierDorval
+
+## How to cite
+
+If you reference the concept *Interpretive SEO* (FR: *SEO interprétatif*) in academic or professional work:
+
+```bibtex
+@software{dorval2026interpretiveseo,
+  author  = {Dorval, Gautier},
+  title   = {Interpretive SEO: Normative definition},
+  year    = {2026},
+  url     = {https://github.com/GautierDorval/interpretive-seo},
+  version = {0.1.0}
+}
+
 ## Mirror repository (FR slug)
 
 A mirror/redirect repository exists for the French slug:  
