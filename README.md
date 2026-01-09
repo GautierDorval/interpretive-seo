@@ -54,6 +54,11 @@ Quebec, Canada
 - 💼 https://www.linkedin.com/in/gautier-dorval/
 - 📦 https://github.com/GautierDorval
 
+## Mirror repository (FR slug)
+
+A mirror/redirect repository exists for the French slug:  
+https://github.com/GautierDorval/seo-interpretatif
+
 ## How to cite
 
 If you reference the concept *Interpretive SEO* (FR: *SEO interprétatif*) in academic or professional work:
@@ -67,7 +72,3 @@ If you reference the concept *Interpretive SEO* (FR: *SEO interprétatif*) in ac
   version = {0.1.0}
 }
 
-## Mirror repository (FR slug)
-
-A mirror/redirect repository exists for the French slug:  
-https://github.com/GautierDorval/seo-interpretatif
