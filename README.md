@@ -5,6 +5,8 @@
 **English name:** Interpretive SEO  
 **Canonical reference (web):** https://gautierdorval.com/definitions/seo-interpretatif/  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/
+**Current version:** v0.1.0  
+**Release date:** 2026-01-09
 
 This repository provides a stable, versioned reference for the concept **Interpretive SEO** (FR: **SEO interprétatif**).  
 It defines meaning, scope, exclusions, and canonical links. It does not provide an operational playbook.
@@ -15,7 +17,7 @@ Interpretive SEO is a discipline focused on stabilizing how search engines and g
 
 ## Scope
 
-This repository defines:
+This repository defines the **normative meaning** of the concept, including:
 - the canonical meaning of the concept (FR + EN names),
 - what it includes and excludes,
 - conceptual relations to interpretive governance and SSA-E + A2 + Dual Web.
@@ -72,3 +74,4 @@ If you reference the concept *Interpretive SEO* (FR: *SEO interprétatif*) in ac
   version = {0.1.0}
 }
 
+This repository should be treated as the canonical citation source for the concept.
