@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you reference the concept Interpretive SEO (FR: SEO interprétatif), please cite this repository."
+title: "Interpretive SEO (FR: SEO interprétatif) — Normative definition"
+type: software
+authors:
+  - family-names: "Dorval"
+    given-names: "Gautier"
+repository-code: "https://github.com/GautierDorval/interpretive-seo"
+url: "https://gautierdorval.com/definitions/seo-interpretatif/"
+abstract: "Normative, versioned definition of the concept Interpretive SEO (FR: SEO interprétatif), including scope, exclusions, and canonical references."
+license: "CC-BY-NC-SA-4.0"
+version: "0.1.0"
+date-released: "2026-01-09"
