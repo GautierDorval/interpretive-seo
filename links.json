@@ -1,0 +1,28 @@
+{
+  "name": "Interpretive SEO",
+  "alternateName": "SEO interprétatif",
+  "status": "normative-definition",
+  "version": "0.1.0",
+  "date": "2026-01-09",
+  "canonical": {
+    "web_definition": "https://gautierdorval.com/definitions/seo-interpretatif/",
+    "repository": "https://github.com/GautierDorval/interpretive-seo"
+  },
+  "mirror": {
+    "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
+  },
+  "author": {
+    "name": "Gautier Dorval",
+    "canonical_identity": "https://gautierdorval.com/entite/",
+    "sameAs": [
+      "https://www.linkedin.com/in/gautier-dorval/",
+      "https://github.com/GautierDorval",
+      "https://github.com/GautierDorval/gautierdorval-identity"
+    ]
+  },
+  "related": {
+    "interpretive_governance": "https://gautierdorval.com/definitions/gouvernance-interpretative/",
+    "ssa_e_a2_dual_web": "https://gautierdorval.com/definitions/ssa-e-a2-dual-web/",
+    "ai_disambiguation": "https://gautierdorval.com/definitions/desambiguisation-ia/"
+  }
+}
