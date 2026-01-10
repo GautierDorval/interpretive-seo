@@ -4,13 +4,16 @@
   "status": "normative-definition",
   "version": "0.2.0",
   "date": "2026-01-09",
+
   "canonical": {
     "web_definition": "https://gautierdorval.com/definitions/seo-interpretatif/",
     "repository": "https://github.com/GautierDorval/interpretive-seo"
   },
+
   "mirror": {
     "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
   },
+
   "author": {
     "name": "Gautier Dorval",
     "canonical_identity": "https://gautierdorval.com/entite/",
@@ -20,9 +23,18 @@
       "https://github.com/GautierDorval/gautierdorval-identity"
     ]
   },
+
   "related": {
     "interpretive_governance": "https://gautierdorval.com/definitions/gouvernance-interpretative/",
     "ssa_e_a2_dual_web": "https://gautierdorval.com/definitions/ssa-e-a2-dual-web/",
     "ai_disambiguation": "https://gautierdorval.com/definitions/desambiguisation-ia/"
+  },
+
+  "clarifications": {
+    "seo_interpretatif_vs_entity_seo_geo_aeo": {
+      "type": "conceptual-clarification",
+      "url": "https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/",
+      "scope": "Clarifies relationships, distinctions, and levels of action between adjacent optimization disciplines without redefining their canonical meanings."
+    }
   }
 }
