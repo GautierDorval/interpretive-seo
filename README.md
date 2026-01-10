@@ -30,11 +30,21 @@ It does not define:
 
 ## Canonical links
 
+### Normative definitions
+
 - Web definition (FR): https://gautierdorval.com/definitions/seo-interpretatif/
 - Interpretive governance (FR): https://gautierdorval.com/definitions/gouvernance-interpretative/
 - SSA-E + A2 + Dual Web (FR): https://gautierdorval.com/definitions/ssa-e-a2-dual-web/
 - AI disambiguation (FR): https://gautierdorval.com/definitions/desambiguisation-ia/
 - Canonical identity repository: https://github.com/GautierDorval/gautierdorval-identity
+
+### Conceptual clarifications
+
+The following resources clarify how Interpretive SEO relates to adjacent optimization disciplines.  
+They do not redefine the concept and should not be cited as normative definitions.
+
+- Interpretive SEO vs Entity SEO vs GEO vs AEO (FR):  
+  https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/
 
 ## Files
 
