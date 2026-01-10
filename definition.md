@@ -79,3 +79,16 @@ Il vise à rendre un système informationnel plus interprétable, plus recoupabl
 - Interpretive governance (FR): https://gautierdorval.com/definitions/gouvernance-interpretative/
 - SSA-E + A2 + Dual Web (FR): https://gautierdorval.com/definitions/ssa-e-a2-dual-web/
 - AI disambiguation (FR): https://gautierdorval.com/definitions/desambiguisation-ia/
+
+  ---
+
+## 4) Conceptual clarifications
+
+The following resources provide **normative clarifications of relationships** between Interpretive SEO and adjacent disciplines.  
+They do not redefine the concept itself, but constrain how it should be positioned and interpreted relative to other optimization approaches.
+
+- Interpretive SEO vs Entity SEO vs GEO vs AEO (FR):  
+  https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/
+
+These clarifications exist to reduce conceptual overlap, attribution drift, and incorrect equivalence between distinct disciplinary layers.
+
