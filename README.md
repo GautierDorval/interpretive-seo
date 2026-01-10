@@ -81,7 +81,7 @@ If you reference the concept *Interpretive SEO* (FR: *SEO interprétatif*) in ac
   title   = {Interpretive SEO: Normative definition},
   year    = {2026},
   url     = {https://github.com/GautierDorval/interpretive-seo},
-  version = {0.1.0}
+  version = {0.2.0}
 }
 
 This repository should be treated as the canonical citation source for the concept.
