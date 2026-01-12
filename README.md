@@ -1,3 +1,13 @@
+> ⚠️ **Standard dependency**
+>
+> This repository applies the **Interpretive Governance standard**
+> to search and retrieval systems (SEO, AEO, GEO).
+>
+> Canonical specification:
+> **https://interpretive-governance.org**
+>
+> This repository is an application layer, not a normative authority.
+
 # Interpretive SEO (FR: SEO interprétatif)
 
 **Status:** normative definition  
@@ -55,6 +65,16 @@ They do not redefine the concept and should not be cited as normative definition
 - `CHANGELOG.md` — version history
 - `VERSION` — current version identifier
 - `LICENSE.md` — licensing reference (if present)
+
+## Scope
+
+Interpretive SEO is an applied methodology that uses the Interpretive Governance standard to:
+
+- reduce interpretive ambiguity in search systems
+- constrain AI-generated explanations and recommendations
+- align SEO practices with machine-readable governance rules
+
+This repository assumes compliance with the Interpretive Governance Manifest.
 
 ## Author
 
