@@ -10,7 +10,7 @@
 
 # Interpretive SEO (FR: SEO interprétatif)
 
-**Status:** normative definition  
+**Status:** normative definition (conceptual, non-executable)
 **Canonical term (FR):** SEO interprétatif  
 **English name:** Interpretive SEO  
 **Canonical reference (web):** https://gautierdorval.com/definitions/seo-interpretatif/  
