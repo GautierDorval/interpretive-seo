@@ -1,0 +1,6 @@
+# Prefer apex domain
+https://www.interpretive-seo.org/* https://interpretive-seo.org/:splat 301
+
+# Optional convenience redirects
+/definition /definition.html 301
+/context /context/ 301
