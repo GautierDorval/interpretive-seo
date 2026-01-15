@@ -1,0 +1,32 @@
+{
+  "name": "Interpretive SEO",
+  "type": "canonical-concept-reference",
+  "status": "normative definition (conceptual, non-executable)",
+  "canonical": "https://interpretive-seo.org/",
+  "version": "0.2.0",
+  "releaseDate": "2026-01-09",
+  "language": ["en", "fr-CA"],
+  "entrypoints": {
+    "root": "https://interpretive-seo.org/",
+    "definition": "https://interpretive-seo.org/definition.html",
+    "context": "https://interpretive-seo.org/context/",
+    "links": "https://interpretive-seo.org/links.json",
+    "llms": "https://interpretive-seo.org/llms.txt",
+    "llmsFull": "https://interpretive-seo.org/llms-full.txt",
+    "humans": "https://interpretive-seo.org/humans.txt",
+    "wellKnownAIGovernance": "https://interpretive-seo.org/.well-known/ai-governance.json"
+  },
+  "upstream": {
+    "repo": "https://github.com/GautierDorval/interpretive-seo",
+    "interpretiveGovernance": "https://interpretive-governance.org/"
+  },
+  "provenance": {
+    "authorName": "Gautier Dorval",
+    "authorUrl": "https://gautierdorval.com/",
+    "canonicalIdentityRepo": "https://github.com/GautierDorval/gautierdorval-identity"
+  },
+  "normativeSeparation": {
+    "nonNormativePages": ["https://interpretive-seo.org/context/"],
+    "normativeRootOnly": true
+  }
+}
