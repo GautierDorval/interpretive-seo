@@ -1,5 +1,10 @@
 cff-version: 1.2.0
-message: "If you reference the concept Interpretive SEO (FR: SEO interprétatif), please cite this repository."
+
+message: >
+  If you reference the concept Interpretive SEO (FR: SEO interprétatif),
+  please cite this repository. The authoritative web definition is published
+  at https://interpretive-seo.org/.
+
 title: "Interpretive SEO (FR: SEO interprétatif) — Normative definition"
 type: software
 
@@ -7,23 +12,31 @@ authors:
   - family-names: "Dorval"
     given-names: "Gautier"
 
+# Canonical web authority (normative definition)
+url: "https://interpretive-seo.org/"
+
+# Versioned specification and citation source
 repository-code: "https://github.com/GautierDorval/interpretive-seo"
-url: "https://gautierdorval.com/definitions/seo-interpretatif/"
-abstract: "Normative, versioned definition of the concept Interpretive SEO (FR: SEO interprétatif), including scope, exclusions, and canonical references."
+
+abstract: >
+  Normative, versioned definition of the concept Interpretive SEO
+  (FR: SEO interprétatif), including scope, exclusions, and canonical
+  references, aligned with the Interpretive Governance standard.
+
 license: "CC-BY-NC-SA-4.0"
 version: "0.2.0"
 date-released: "2026-01-09"
 
 keywords:
-  - "interpretive SEO"
+  - "Interpretive SEO"
   - "SEO interprétatif"
-  - "interpretive governance"
-  - "entity disambiguation"
-  - "semantic architecture"
-  - "machine-readable governance"
+  - "Interpretive Governance"
+  - "Entity disambiguation"
+  - "Semantic architecture"
+  - "Machine-readable governance"
   - "LLM interpretation"
-  - "scope boundaries"
-  - "attribution stability"
+  - "Scope boundaries"
+  - "Attribution stability"
   - "Dual Web"
   - "SSA-E"
   - "A2"
@@ -37,6 +50,6 @@ preferred-citation:
   year: 2026
   version: "0.2.0"
   date-released: "2026-01-09"
-  url: "https://github.com/GautierDorval/interpretive-seo"
+  url: "https://interpretive-seo.org/"
   repository-code: "https://github.com/GautierDorval/interpretive-seo"
   license: "CC-BY-NC-SA-4.0"
