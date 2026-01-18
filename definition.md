@@ -1,8 +1,8 @@
 # Interpretive SEO (FR: SEO interprétatif) — Normative definition
 
 **Status:** normative definition  
-**Version:** v0.2.0
-**Date:** 2026-01-09  
+**Version:** v0.3.0
+**Date:** 2026-01-18  
 **Canonical web reference:** https://gautierdorval.com/definitions/seo-interpretatif/  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/
 
@@ -30,6 +30,7 @@ It aims to make an information system more interpretable, more cross-checkable, 
 - Semantic collisions between distinct entities.
 - Instability of answers across systems and prompts.
 - Over-reliance on implicit inference when boundaries are not declared.
+- Illegitimate answers produced under missing, conflicting, or insufficient interpretive conditions.
 
 ### Structuring mechanisms (conceptual level)
 
@@ -38,6 +39,7 @@ It aims to make an information system more interpretable, more cross-checkable, 
 - Entity and relationship coherence (cross-surface cross-checking).
 - Controlled redundancy (stability without divergence).
 - Machine-readable surfaces (Dual Web, conventions, graphs).
+- Response authorization as a procedural precondition (Q-Layer): answering is conditional, and non-response can be legitimate.
 
 ---
 
@@ -63,6 +65,7 @@ Il vise à rendre un système informationnel plus interprétable, plus recoupabl
 - Collisions sémantiques entre entités distinctes.
 - Instabilité des réponses selon les systèmes consultés.
 - Dépendance aux inférences par défaut lorsque les limites ne sont pas déclarées.
+- Réponses produites sans légitimité, lorsque les conditions interprétatives sont insuffisantes, ambiguës ou contradictoires.
 
 ### Mécanismes structurants (niveau conceptuel)
 
@@ -71,6 +74,7 @@ Il vise à rendre un système informationnel plus interprétable, plus recoupabl
 - Cohérence des entités et relations (recoupement inter-surfaces).
 - Redondance contrôlée (stabilité sans divergence).
 - Surfaces machine-readable (Dual Web, conventions, graphes).
+- Autorisation de réponse comme précondition procédurale (Q-Layer) : répondre est conditionnel, et la non-réponse peut être légitime.
 
 ---
 
