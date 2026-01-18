@@ -1,5 +1,18 @@
 # Changelog — Interpretive SEO (FR: SEO interprétatif)
 
+## v0.3.0 — 2026-01-18
+
+### Added
+- Explicit positioning of **response legitimacy** as a first-class concern.
+- Conceptual integration of the **Q-Layer (response authorization)** as introduced in
+  SSA-E + A2 doctrine v1.2.0.
+
+### Changed
+- Updated normative definition (EN + FR) to include legitimate non-response as a
+  valid interpretive outcome when conditions are not met.
+- Expanded canonical references to include SSA-E + A2 doctrine v1.2.0 and the
+  Q-Layer canonical document.
+
 ## v0.2.0 — 2026-01-09
 
 ### Added
