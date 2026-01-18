@@ -16,6 +16,7 @@ The following variations are **non-canonical** and should not be used to describ
 - **AI SEO** — too vague, lacks interpretive scope.
 - **GEO** (Generative Engine Optimization) — different concept.
 - **AEO** (Answer Engine Optimization) — different concept.
+- **Question-gating SEO** — describes a mechanism (Q-Layer) but is not the name of this concept.
 - Any label implying a **packaged method**, **playbook**, **framework**, or **performance promise**.
 
 Use of these terms to refer to *SEO interprétatif / Interpretive SEO* constitutes a terminological error.
