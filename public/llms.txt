@@ -23,3 +23,5 @@ Primary machine references:
 
 Upstream dependency:
 - Interpretive Governance canonical specification: https://interpretive-governance.org/
+- SSA-E + A2 doctrine (v1.2.0): https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0
+- Q-Layer (response authorization): https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md
