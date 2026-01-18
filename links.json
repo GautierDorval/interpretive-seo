@@ -2,8 +2,8 @@
   "name": "Interpretive SEO",
   "alternateName": "SEO interprétatif",
   "status": "normative-definition",
-  "version": "0.2.0",
-  "date": "2026-01-09",
+  "version": "0.3.0",
+  "date": "2026-01-18",
 
   "canonical": {
     "web_definition": "https://gautierdorval.com/definitions/seo-interpretatif/",
@@ -27,7 +27,9 @@
   "related": {
     "interpretive_governance": "https://gautierdorval.com/definitions/gouvernance-interpretative/",
     "ssa_e_a2_dual_web": "https://gautierdorval.com/definitions/ssa-e-a2-dual-web/",
-    "ai_disambiguation": "https://gautierdorval.com/definitions/desambiguisation-ia/"
+    "ai_disambiguation": "https://gautierdorval.com/definitions/desambiguisation-ia/",
+    "ssa_e_a2_doctrine_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
+    "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
   },
 
   "clarifications": {
