@@ -19,8 +19,8 @@
 **Versioned specification (this repository):** https://github.com/GautierDorval/interpretive-seo  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/  
 
-**Current version:** v0.2.0  
-**Release date:** 2026-01-09  
+**Current version:** v0.3.0  
+**Release date:** 2026-01-18  
 
 ---
 
@@ -50,6 +50,11 @@ Interpretive SEO is a discipline focused on stabilizing how search engines and
 generative AI systems interpret and infer meaning from entities and web content,
 in order to reduce attribution errors and scope drift.
 
+It explicitly treats **response legitimacy** as a first-class concern:
+when interpretive conditions are not met, a system may be required to
+request clarification or produce a **legitimate non-response** rather than
+defaulting to plausible completion.
+
 ---
 
 ## Scope
@@ -59,6 +64,8 @@ This repository defines the **normative meaning** of the concept, including:
 - the canonical meaning of the concept (FR and EN names),
 - what the concept includes and excludes,
 - its conceptual relations to Interpretive Governance and SSA-E + A2 + Dual Web.
+- its conceptual relations to the Q-Layer (response authorization) introduced in
+  SSA-E + A2 doctrine v1.2.0.
 
 It explicitly does **not** define:
 
@@ -81,6 +88,11 @@ The following references define the authoritative meaning of the concept:
   https://interpretive-governance.org/
 - **Canonical identity repository**  
   https://github.com/GautierDorval/gautierdorval-identity
+
+- **SSA-E + A2 + Dual Web doctrine (v1.2.0)**  
+  https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0
+- **Q-Layer — response authorization (SSA-E + A2 doctrine v1.2.0)**  
+  https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md
 
 ---
 
@@ -133,6 +145,16 @@ Interpretive Governance standard to:
 
 This repository assumes conceptual compatibility with the
 Interpretive Governance manifest.
+
+Interpretive SEO is also conceptually compatible with the SSA-E + A2 doctrine
+release **v1.2.0**, which introduces the **Q-Layer** as a transversal layer of
+interpretative legitimacy positioned between semantic stabilization (SSA-E / Dual Web)
+and adaptive amplification (A2):
+
+- SSA-E + A2 doctrine v1.2.0 (canonical):
+  https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.2.0
+- Q-Layer (response authorization):
+  https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md
 
 ---
 
