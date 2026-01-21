@@ -1,8 +1,8 @@
 {
   "name": "Interpretive SEO — AI governance pointer",
   "canonical": "https://interpretive-seo.org/",
-  "version": "0.2.0",
-  "releaseDate": "2026-01-09",
+  "version": "0.3.0",
+  "releaseDate": "2026-01-18",
   "pointers": {
     "aiManifest": "https://interpretive-seo.org/ai-manifest.json",
     "links": "https://interpretive-seo.org/links.json",
