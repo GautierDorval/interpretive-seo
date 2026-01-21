@@ -190,6 +190,7 @@ If you reference the concept **Interpretive SEO**
   author  = {Dorval, Gautier},
   title   = {Interpretive SEO: Normative definition},
   year    = {2026},
-  version = {0.2.0},
+  version = {0.3.0},
   url     = {https://github.com/GautierDorval/interpretive-seo}
 }
+
