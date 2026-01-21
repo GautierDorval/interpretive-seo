@@ -12,6 +12,8 @@ authors:
   - family-names: "Dorval"
     given-names: "Gautier"
 
+repository-artifact: "links.json"
+
 # Canonical web authority (normative definition)
 url: "https://interpretive-seo.org/"
 
