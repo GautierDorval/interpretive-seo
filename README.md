@@ -24,6 +24,16 @@
 
 ---
 
+## Related application frameworks (gautierdorval.com)
+
+These pages are **application-level frameworks** derived from the Interpretive Governance doctrine.
+They are published on gautierdorval.com (doctrinal + operational registry), and are referenced here
+as contextual surfaces (not as part of the canonical definition of Interpretive SEO).
+
+- Framework registry: https://gautierdorval.com/frameworks/
+- Citations, inference, and distortion (interpretive fidelity vs visibility):
+  https://gautierdorval.com/frameworks/citations-fidelite-interpretative/
+
 ## Purpose of this repository
 
 This repository provides a **stable, versioned specification** for the concept
