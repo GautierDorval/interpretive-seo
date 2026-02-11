@@ -4,17 +4,14 @@
   "status": "normative-definition",
   "version": "0.3.0",
   "date": "2026-01-18",
-
   "canonical": {
     "web_definition": "https://interpretive-seo.org/",
     "definition_html": "https://interpretive-seo.org/definition.html",
     "repository": "https://github.com/GautierDorval/interpretive-seo"
   },
-
   "mirror": {
     "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
   },
-
   "author": {
     "name": "Gautier Dorval",
     "canonical_identity": "https://gautierdorval.com/entite/",
@@ -24,20 +21,19 @@
       "https://github.com/GautierDorval/gautierdorval-identity"
     ]
   },
-
   "dependencies": {
     "parent_standard": "https://interpretive-governance.org/",
     "ssa_e_a2_doctrine_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
     "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
   },
-
   "editorial_context": {
     "interpretive_seo_fr_definition": "https://gautierdorval.com/definitions/seo-interpretatif/",
     "interpretive_governance_fr_definition": "https://gautierdorval.com/definitions/gouvernance-interpretative/",
     "ssa_e_a2_dual_web_fr_definition": "https://gautierdorval.com/definitions/ssa-e-a2-dual-web/",
-    "ai_disambiguation_fr_definition": "https://gautierdorval.com/definitions/desambiguisation-ia/"
+    "ai_disambiguation_fr_definition": "https://gautierdorval.com/definitions/desambiguisation-ia/",
+    "frameworks_registry": "https://gautierdorval.com/frameworks/",
+    "citations_fidelite_interpretative_framework": "https://gautierdorval.com/frameworks/citations-fidelite-interpretative/"
   },
-
   "clarifications": {
     "seo_interpretatif_vs_entity_seo_geo_aeo": {
       "type": "conceptual-clarification",
