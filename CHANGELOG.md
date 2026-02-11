@@ -1,5 +1,11 @@
 # Changelog — Interpretive SEO (FR: SEO interprétatif)
 
+## Unreleased
+
+### Added
+- Linked the gautierdorval.com framework registry and the interpretive fidelity framework page (citations vs inference). (2026-02-11)
+
+
 ## v0.3.0 — 2026-01-18
 
 ### Added
