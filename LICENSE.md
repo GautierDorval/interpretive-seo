@@ -1,8 +1,6 @@
 # License
 
-This repository is licensed under:
+This repository is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+(**CC BY-NC-SA 4.0**).
 
-**Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
-
-Human-readable summary: https://creativecommons.org/licenses/by-nc-sa/4.0/  
-Legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+See the `LICENSE` file for the SPDX identifier and canonical links to the license text and legal code.

@@ -1,13 +1,17 @@
 > ⚠️ **Standard dependency**
 >
-> This repository applies the **Interpretive Governance standard**
+> This repository applies the **Interpretive Governance** standard
 > to search and retrieval systems (SEO, AEO, GEO).
 >
-> Canonical specification (parent standard):
+> Parent standard (canonical):
 > https://interpretive-governance.org
 >
-> This repository is an application and specification layer.
-> It is not the canonical web authority for the concept.
+> Canonical web authority (normative term definition):
+> https://interpretive-seo.org/
+>
+> This repository is the **versioned specification source** for the canonical
+> web projection. It is not an implementation guide, and it does not claim any
+> ranking / traffic outcomes.
 
 # Interpretive SEO (FR: SEO interprétatif)
 
@@ -19,8 +23,17 @@
 **Versioned specification (this repository):** https://github.com/GautierDorval/interpretive-seo  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/  
 
-**Current version:** v0.3.0  
-**Release date:** 2026-01-18  
+**Current version:** v0.3.2
+**Release date:** 2026-02-16
+---
+
+## Drift control (non-negotiable)
+
+This repository includes a minimal **consistency check** to prevent drift between:
+- the versioned specification (`definition.md`, `links.json`, `VERSION`), and
+- the canonical web projection (`public/`, `.well-known/`).
+
+See `scripts/verify_consistency.py` and `.github/workflows/consistency.yml`.
 
 ---
 
@@ -200,7 +213,7 @@ If you reference the concept **Interpretive SEO**
   author  = {Dorval, Gautier},
   title   = {Interpretive SEO: Normative definition},
   year    = {2026},
-  version = {0.3.0},
+  version = {0.3.2},
   url     = {https://github.com/GautierDorval/interpretive-seo}
 }
 

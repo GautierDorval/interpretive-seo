@@ -2,8 +2,8 @@
   "name": "Interpretive SEO",
   "alternateName": "SEO interprétatif",
   "status": "normative-definition",
-  "version": "0.3.0",
-  "date": "2026-01-18",
+  "version": "0.3.2",
+  "date": "2026-02-16",
   "canonical": {
     "web_definition": "https://interpretive-seo.org/",
     "definition_html": "https://interpretive-seo.org/definition.html",
@@ -40,5 +40,8 @@
       "url": "https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/",
       "scope": "Clarifies relationships, distinctions, and levels of action between adjacent optimization disciplines without redefining their canonical meanings."
     }
+  },
+  "machine": {
+    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld"
   }
 }

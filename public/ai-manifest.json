@@ -3,9 +3,12 @@
   "type": "canonical-concept-reference",
   "status": "normative definition (conceptual, non-executable)",
   "canonical": "https://interpretive-seo.org/",
-  "version": "0.3.0",
-  "releaseDate": "2026-01-18",
-  "language": ["en", "fr-CA"],
+  "version": "0.3.2",
+  "releaseDate": "2026-02-16",
+  "language": [
+    "en",
+    "fr-CA"
+  ],
   "entrypoints": {
     "root": "https://interpretive-seo.org/",
     "definition": "https://interpretive-seo.org/definition.html",
@@ -28,7 +31,12 @@
     "canonicalIdentityRepo": "https://github.com/GautierDorval/gautierdorval-identity"
   },
   "normativeSeparation": {
-    "nonNormativePages": ["https://interpretive-seo.org/context/"],
+    "nonNormativePages": [
+      "https://interpretive-seo.org/context/"
+    ],
     "normativeRootOnly": true
+  },
+  "machineReferences": {
+    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld"
   }
 }

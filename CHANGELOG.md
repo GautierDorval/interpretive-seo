@@ -2,9 +2,19 @@
 
 ## Unreleased
 
+- No changes.
+
+## v0.3.2 — 2026-02-16
+
 ### Added
 - Linked the gautierdorval.com framework registry and the interpretive fidelity framework page (citations vs inference). (2026-02-11)
+- Added a machine-first JSON-LD `DefinedTerm` artifact (`interpretive-seo.jsonld`) and a served copy under `public/`.
+- Added a minimal drift-control workflow and local verification script to prevent inconsistencies between repo and canonical web surfaces.
 
+### Fixed
+- Synchronized `public/definition.html` and `public/humans.txt` with the repository version (including the Q-Layer / response legitimacy section).
+- Corrected `CITATION.cff` type (dataset, not software).
+- Added a `LICENSE` file (SPDX identifier + canonical links) to improve license detection by tooling.
 
 ## v0.3.0 — 2026-01-18
 
@@ -33,7 +43,6 @@
 
 ### Fixed
 - Clarified canonical vs non-canonical terminology to avoid confusion with adjacent concepts (AI SEO, GEO, AEO).
-
 
 ## v0.1.0 — 2026-01-09
 

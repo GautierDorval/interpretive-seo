@@ -8,8 +8,8 @@ Web: https://interpretive-seo.org/
 Name (EN): Interpretive SEO
 Name (FR): SEO interprétatif
 Status: normative definition (conceptual, non-executable)
-Version: 0.2.0
-Release date: 2026-01-09
+Version: 0.3.2
+Release date: 2026-02-16
 
 /* AUTHOR AND PROVENANCE */
 Author: Gautier Dorval

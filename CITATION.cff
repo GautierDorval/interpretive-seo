@@ -6,7 +6,7 @@ message: >
   at https://interpretive-seo.org/.
 
 title: "Interpretive SEO (FR: SEO interprétatif) — Normative definition"
-type: software
+type: dataset
 
 authors:
   - family-names: "Dorval"
@@ -26,8 +26,8 @@ abstract: >
   references, aligned with the Interpretive Governance standard.
 
 license: "CC-BY-NC-SA-4.0"
-version: "0.3.0"
-date-released: "2026-01-18"
+version: "0.3.2"
+date-released: "2026-02-16"
 
 keywords:
   - "Interpretive SEO"
@@ -44,14 +44,14 @@ keywords:
   - "A2"
 
 preferred-citation:
-  type: software
+  type: dataset
   title: "Interpretive SEO (FR: SEO interprétatif) — Normative definition"
   authors:
     - family-names: "Dorval"
       given-names: "Gautier"
   year: 2026
-  version: "0.3.0"
-  date-released: "2026-01-18"
+  version: "0.3.2"
+  date-released: "2026-02-16"
   url: "https://interpretive-seo.org/"
   repository-code: "https://github.com/GautierDorval/interpretive-seo"
   license: "CC-BY-NC-SA-4.0"

@@ -5,8 +5,8 @@
 - Concept name (EN): Interpretive SEO
 - Concept name (FR): SEO interprétatif
 - Status: normative definition (conceptual, non-executable)
-- Version: 0.3.0
-- Release date: 2026-01-18
+- Version: 0.3.2
+- Release date: 2026-02-16
 
 2) Normative separation (non-negotiable)
 - Root-level artifacts on interpretive-seo.org are normative.
