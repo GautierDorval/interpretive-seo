@@ -1,25 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Interpretive SEO (SEO interprétatif) — normative definition</title>
-  <meta name="description" content="Canonical web definition of Interpretive SEO (FR: SEO interprétatif). A normative, conceptual reference for stabilizing interpretation in search and generative AI systems." />
+  <title>Home | Interpretive SEO</title>
+  <meta name="description" content="Interpretive SEO: a normative, machine-first definition for stabilizing interpretation in search and generative AI systems." />
+  <meta name="robots" content="index,follow" />
   <meta name="author" content="Gautier Dorval" />
 
   <link rel="canonical" href="https://interpretive-seo.org/" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="/styles.css" />
 
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260226-1" />
+  <link rel="stylesheet" href="/assets/style.css?v=20260226-1" />
+
+  <meta property="og:site_name" content="Interpretive SEO" />
+  <meta property="og:title" content="Home | Interpretive SEO" />
+  <meta property="og:description" content="Interpretive SEO: a normative, machine-first definition for stabilizing interpretation in search and generative AI systems." />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Interpretive SEO (SEO interprétatif) — normative definition" />
-  <meta property="og:description" content="Canonical web definition of Interpretive SEO (FR: SEO interprétatif)." />
   <meta property="og:url" content="https://interpretive-seo.org/" />
+  <meta property="og:image" content="https://interpretive-seo.org/assets/og.png" />
+  <meta property="og:locale" content="en_US" />
 
-  <meta name="robots" content="index,follow" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Home | Interpretive SEO" />
+  <meta name="twitter:description" content="Interpretive SEO: a normative, machine-first definition for stabilizing interpretation in search and generative AI systems." />
+  <meta name="twitter:image" content="https://interpretive-seo.org/assets/og.png" />
 
-  <!-- Schema.org graph (concept + website + author identity) -->
+  <!-- Schema.org graph (site + author + concept) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,16 +37,18 @@
         "@type": "WebSite",
         "@id": "https://interpretive-seo.org/#website",
         "url": "https://interpretive-seo.org/",
-        "name": "Interpretive SEO (SEO interprétatif)",
+        "name": "Interpretive SEO",
+        "description": "Normative concept reference for stabilizing interpretation in AI-first search and retrieval (non-operational).",
         "inLanguage": ["en", "fr-CA"],
-        "publisher": { "@id": "https://gautierdorval.com/entite/#gautier-dorval" }
+        "publisher": { "@id": "https://interpretive-seo.org/#person" }
       },
       {
         "@type": "Person",
-        "@id": "https://gautierdorval.com/entite/#gautier-dorval",
+        "@id": "https://interpretive-seo.org/#person",
         "name": "Gautier Dorval",
         "url": "https://gautierdorval.com/",
         "sameAs": [
+          "https://gautierdorval.com/",
           "https://www.linkedin.com/in/gautier-dorval/",
           "https://github.com/GautierDorval",
           "https://github.com/GautierDorval/gautierdorval-identity"
@@ -55,17 +66,19 @@
         "isBasedOn": "https://github.com/GautierDorval/interpretive-seo",
         "version": "0.3.2",
         "datePublished": "2026-02-16",
-        "author": { "@id": "https://gautierdorval.com/entite/#gautier-dorval" }
+        "author": { "@id": "https://interpretive-seo.org/#person" }
       },
       {
         "@type": "WebPage",
         "@id": "https://interpretive-seo.org/#webpage",
         "url": "https://interpretive-seo.org/",
-        "name": "Interpretive SEO (SEO interprétatif) — normative definition",
+        "name": "Home",
+        "description": "Interpretive SEO: a normative, machine-first definition for stabilizing interpretation in search and generative AI systems.",
         "isPartOf": { "@id": "https://interpretive-seo.org/#website" },
         "about": { "@id": "https://interpretive-seo.org/#interpretive-seo" },
-        "datePublished": "2026-02-16",
-        "dateModified": "2026-02-16"
+        "inLanguage": "en",
+        "dateModified": "2026-02-26",
+        "author": { "@id": "https://interpretive-seo.org/#person" }
       }
     ]
   }
@@ -73,79 +86,78 @@
 </head>
 
 <body>
-  <header class="site">
-    <div class="brand">
-      <h1>Interpretive SEO <span class="meta">(FR&#58; SEO interprétatif)</span></h1>
-      <p class="tagline">Normative concept reference. Not an implementation.</p>
-      <p class="meta">Current version&#58; v0.3.2 — Release date&#58; 2026-02-16.</p>
-      <p class="meta">Author&#58; <a href="https://gautierdorval.com/">Gautier Dorval</a>.</p>
-    </div>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img alt="Interpretive SEO" height="34" width="34" src="/assets/logo.svg?v=20260226-1" />
+        <div>
+          <div><strong>Interpretive SEO</strong> <span class="badge">normative</span></div>
+          <div class="muted" style="font-size:13px">Machine-first definition. Not an implementation.</div>
+        </div>
+      </div>
 
-    <nav class="site-nav" aria-label="Primary">
-      <a href="/">Home</a>
-      <a href="/definition">Definition</a>
-      <a href="/context/">Context</a>
-      <a href="/links.json">links.json</a>
-      <a href="/llms.txt">llms.txt</a>
-    </nav>
+      <nav aria-label="Primary">
+        <a class="active" href="/">Home</a>
+        <a class="" href="/definition">Definition</a>
+        <a class="" href="/context/">Context</a>
+        <a class="" href="/links.json">links.json</a>
+        <a class="" href="/llms.txt">llms.txt</a>
+        <a href="/definition#fr">Français</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="box">
-    <h2 style="margin-top:0;">Definition (short)</h2>
-    <p>
-      Interpretive SEO is a discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content, in order to reduce attribution errors and scope drift.
-    </p>
-  </section>
+  <main class="container">
+    <h1>Home</h1>
 
-  <section class="box">
-    <h2 style="margin-top:0;">Scope</h2>
-    <p>This domain defines the normative meaning of the concept, including&#58;</p>
-    <ul>
-      <li>the canonical meaning of the concept (FR + EN names)&#59;</li>
-      <li>what it includes and excludes&#59;</li>
-      <li>conceptual relations to Interpretive Governance and SSA-E + A2 + Dual Web&#59;</li>
-      <li>response legitimacy and response authorization (Q-Layer).</li>
-    </ul>
+    <div class="card">
+      <p>
+        <strong>Interpretive SEO</strong> is a doctrinal, non-operational discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content.
+      </p>
+      <p class="muted">
+        The goal is not “more output”. The goal is <em>bounded interpretation</em>: fewer attribution errors, less scope drift, and more auditable understanding across systems.
+      </p>
+      <p class="muted">
+        Current version: <strong>v0.3.2</strong> (release date: 2026-02-16).
+      </p>
+    </div>
 
-    <p style="margin-top:0.85rem;">It does not define&#58;</p>
-    <ul>
-      <li>packaged services&#59;</li>
-      <li>implementation recipes&#59;</li>
-      <li>performance promises&#59;</li>
-      <li>operational procedures.</li>
-    </ul>
-  </section>
+    <h2>The core idea</h2>
+    <div class="card">
+      <div class="kv"><div>1) Stabilize</div><div>Reduce interpretive variance by declaring canonical names, boundaries, exclusions, and authority surfaces.</div></div>
+      <div class="kv"><div>2) Constrain</div><div>Prevent default inference from “filling gaps”. When conditions are insufficient, the correct output is abstention.</div></div>
+      <div class="kv"><div>3) Ground</div><div>Expose machine-readable anchors (Dual Web surfaces, canonical URLs, graphs) so interpretation can be cross-checked.</div></div>
+      <div class="kv"><div>4) Legitimize</div><div>Enforce response legitimacy via the <strong>Q-Layer</strong>: answering is conditional; non-response can be correct.</div></div>
+    </div>
 
-  <section class="box">
-    <h2 style="margin-top:0;">Canonical artifacts (root)</h2>
-    <ul>
-      <li><a href="/definition">/definition</a> — long-form normative definition (HTML)</li>
-      <li><a href="/links.json">/links.json</a> — machine-readable canonical references</li>
-      <li><a href="/llms.txt">/llms.txt</a> — machine reading guidance (short)</li>
-      <li><a href="/llms-full.txt">/llms-full.txt</a> — machine reading guidance (full)</li>
-      <li><a href="/humans.txt">/humans.txt</a> — provenance and identity pointer</li>
-      <li><a href="/ai-manifest.json">/ai-manifest.json</a> — machine-readable manifest</li>
-      <li><a href="/.well-known/ai-governance.json">/.well-known/ai-governance.json</a> — neutral pointer entry</li>
-      <li><a href="/context/">/context/</a> — contextual information (non-normative)</li>
-      <li><a href="/interpretive-seo.jsonld">/interpretive-seo.jsonld</a> — DefinedTerm (JSON-LD)</li>
-      <li><a href="/sitemap.xml">/sitemap.xml</a> — sitemap</li>
-    </ul>
-  </section>
+    <h2>Canonical artifacts</h2>
+    <div class="card">
+      <ul>
+        <li><a href="/definition">/definition</a> — long-form normative definition (HTML)</li>
+        <li><a href="/links.json">/links.json</a> — machine-readable canonical references</li>
+        <li><a href="/llms.txt">/llms.txt</a> — machine reading guidance (short)</li>
+        <li><a href="/llms-full.txt">/llms-full.txt</a> — machine reading guidance (full)</li>
+        <li><a href="/ai-manifest.json">/ai-manifest.json</a> — AI-first manifest</li>
+        <li><a href="/interpretive-seo.jsonld">/interpretive-seo.jsonld</a> — DefinedTerm (JSON-LD)</li>
+        <li><a href="/.well-known/ai-governance.json">/.well-known/ai-governance.json</a> — neutral pointer entry</li>
+        <li><a href="/humans.txt">/humans.txt</a> — identity + provenance pointer</li>
+        <li><a href="/sitemap.xml">/sitemap.xml</a> — sitemap</li>
+        <li><a href="/context/">/context/</a> — contextual information (non-normative)</li>
+      </ul>
+    </div>
 
-  <section class="box">
-    <h2 style="margin-top:0;">Canonical development repository</h2>
-    <p>
-      GitHub repository (versioned reference, citation metadata, and history)&#58;
-      <a href="https://github.com/GautierDorval/interpretive-seo">https&#58;//github.com/GautierDorval/interpretive-seo</a>
-    </p>
-    <p class="meta" style="margin-top:0.75rem;">
-      Interpretive Governance (canonical specification dependency)&#58;
-      <a href="https://interpretive-governance.org/">https&#58;//interpretive-governance.org/</a>
-    </p>
-  </section>
+    <h2>Canonical anchors</h2>
+    <div class="card">
+      <div class="kv"><div>Author</div><div><a href="https://gautierdorval.com/">gautierdorval.com</a></div></div>
+      <div class="kv"><div>Doctrinal dependency</div><div><a href="https://interpretive-governance.org/">interpretive-governance.org</a></div></div>
+      <div class="kv"><div>Canonical repository</div><div><a href="https://github.com/GautierDorval/interpretive-seo">github.com/GautierDorval/interpretive-seo</a></div></div>
+    </div>
 
-  <footer class="site-footer">
-    <p class="meta">Non-marketing, machine-first, canonical concept reference.</p>
-  </footer>
+    <div class="footer">
+      Last updated: 2026-02-26
+      This site is intentionally non-operational: it does not contain scoring weights, thresholds, calibrated protocols, datasets, or execution tooling.
+      Primary doctrinal surface: gautierdorval.com
+    </div>
+  </main>
 </body>
 </html>
