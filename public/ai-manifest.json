@@ -11,7 +11,7 @@
   ],
   "entrypoints": {
     "root": "https://interpretive-seo.org/",
-    "definition": "https://interpretive-seo.org/definition.html",
+    "definition": "https://interpretive-seo.org/definition",
     "context": "https://interpretive-seo.org/context/",
     "links": "https://interpretive-seo.org/links.json",
     "llms": "https://interpretive-seo.org/llms.txt",

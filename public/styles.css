@@ -1,0 +1,95 @@
+/* interpretive-seo.org — minimal doctrinal styling (shared) */
+:root {
+  color-scheme: light dark;
+  --maxw: 980px;
+  --border: rgba(127,127,127,0.35);
+  --muted: rgba(127,127,127,0.85);
+  --radius: 12px;
+}
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+  padding: 2rem 1.25rem;
+  max-width: var(--maxw);
+  margin: 0 auto;
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header.site {
+  margin-bottom: 1.35rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.brand h1 {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.brand .tagline {
+  margin: 0;
+  opacity: 0.85;
+}
+
+nav.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.8rem;
+  font-size: 0.98rem;
+}
+
+nav.site-nav a {
+  border: 1px solid transparent;
+  padding: 0.28rem 0.5rem;
+  border-radius: 10px;
+}
+
+nav.site-nav a:hover {
+  border-color: var(--border);
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.35rem;
+}
+
+.meta {
+  opacity: 0.8;
+  font-size: 0.95rem;
+}
+
+.box {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.15rem;
+  margin: 1rem 0;
+}
+
+hr.sep {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: 1.4rem 0;
+}
+
+ul { margin: 0.55rem 0 0.25rem 1.25rem; }
+
+code, pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+footer.site-footer {
+  margin-top: 1.8rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--border);
+}

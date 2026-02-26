@@ -12,3 +12,5 @@ Allow: /
 # https://interpretive-seo.org/links.json
 # https://interpretive-seo.org/ai-manifest.json
 # https://interpretive-seo.org/.well-known/ai-governance.json
+
+Sitemap: https://interpretive-seo.org/sitemap.xml

@@ -5,57 +5,182 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <title>Interpretive SEO — definition (normative)</title>
-  <meta name="description" content="Long-form normative definition of Interpretive SEO (FR: SEO interprétatif)." />
+  <meta name="description" content="Long-form normative definition of Interpretive SEO (FR: SEO interprétatif), including scope boundaries, exclusions, and canonical dependencies." />
+  <meta name="author" content="Gautier Dorval" />
 
-  <link rel="canonical" href="https://interpretive-seo.org/definition.html" />
+  <link rel="canonical" href="https://interpretive-seo.org/definition" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/styles.css" />
   <meta name="robots" content="index,follow" />
 
-  <style>
-    :root { color-scheme: light dark; }
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; margin: 0; padding: 2rem 1.25rem; max-width: 920px; }
-    h1 { font-size: 1.6rem; margin: 0 0 0.75rem; }
-    h2 { font-size: 1.15rem; margin-top: 1.35rem; }
-    .meta { opacity: 0.8; font-size: 0.95rem; }
-    .box { border: 1px solid rgba(127,127,127,0.35); border-radius: 10px; padding: 1rem; margin: 1rem 0; }
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    ul { margin: 0.5rem 0 0.25rem 1.25rem; }
-    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-  </style>
+  <!-- Schema.org graph (concept + page + author identity) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://interpretive-seo.org/#website",
+        "url": "https://interpretive-seo.org/",
+        "name": "Interpretive SEO (SEO interprétatif)",
+        "inLanguage": ["en", "fr-CA"],
+        "publisher": { "@id": "https://gautierdorval.com/entite/#gautier-dorval" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://gautierdorval.com/entite/#gautier-dorval",
+        "name": "Gautier Dorval",
+        "url": "https://gautierdorval.com/",
+        "sameAs": [
+          "https://www.linkedin.com/in/gautier-dorval/",
+          "https://github.com/GautierDorval",
+          "https://github.com/GautierDorval/gautierdorval-identity"
+        ]
+      },
+      {
+        "@type": "DefinedTerm",
+        "@id": "https://interpretive-seo.org/#interpretive-seo",
+        "name": "Interpretive SEO",
+        "alternateName": ["SEO interprétatif", "SEO interpretatif"],
+        "url": "https://interpretive-seo.org/",
+        "identifier": "https://interpretive-seo.org/#interpretive-seo",
+        "description": "Interpretive SEO is a discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content, in order to reduce attribution errors and scope drift.",
+        "inDefinedTermSet": "https://interpretive-governance.org/",
+        "isBasedOn": "https://github.com/GautierDorval/interpretive-seo",
+        "version": "0.3.2",
+        "datePublished": "2026-02-16",
+        "author": { "@id": "https://gautierdorval.com/entite/#gautier-dorval" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://interpretive-seo.org/definition#webpage",
+        "url": "https://interpretive-seo.org/definition",
+        "name": "Interpretive SEO — definition (normative)",
+        "isPartOf": { "@id": "https://interpretive-seo.org/#website" },
+        "about": { "@id": "https://interpretive-seo.org/#interpretive-seo" },
+        "datePublished": "2026-02-16",
+        "dateModified": "2026-02-16"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://interpretive-seo.org/definition#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://interpretive-seo.org/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Definition",
+            "item": "https://interpretive-seo.org/definition"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <header>
-    <h1>Interpretive SEO (FR: SEO interprétatif) — long-form definition</h1>
-    <p class="meta">Status: normative definition (conceptual, non-executable). Version: v0.3.2 (2026-02-16).</p>
+  <header class="site">
+    <div class="brand">
+      <h1>Interpretive SEO <span class="meta">(FR&#58; SEO interprétatif)</span></h1>
+      <p class="tagline">Normative definition (conceptual, non-executable).</p>
+      <p class="meta">Version&#58; v0.3.2 — Release date&#58; 2026-02-16.</p>
+    </div>
+
+    <nav class="site-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/definition">Definition</a>
+      <a href="/context/">Context</a>
+      <a href="/links.json">links.json</a>
+      <a href="/llms.txt">llms.txt</a>
+    </nav>
   </header>
 
   <section class="box">
-    <h2 style="margin-top:0;">Definition (short)</h2>
+    <h2 style="margin-top:0;">1) Definition (EN)</h2>
     <p>
       Interpretive SEO is a discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content, in order to reduce attribution errors and scope drift.
     </p>
+    <p class="meta">
+      It does not aim to optimize isolated pages. It aims to make an information system more interpretable, more cross-checkable, and less vulnerable to default inference.
+    </p>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">What it is not</h3>
+    <ul>
+      <li>Not a synonym for technical SEO or content SEO.</li>
+      <li>Not a reproducible operational method.</li>
+      <li>Not a growth playbook or a performance promise.</li>
+      <li>Not a keyword-only strategy.</li>
+      <li>Not a Schema.org checklist.</li>
+    </ul>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">Problems addressed</h3>
+    <ul>
+      <li>Misattribution (roles, projects, capabilities, services).</li>
+      <li>Identity drift and scope drift.</li>
+      <li>Semantic collisions between distinct entities.</li>
+      <li>Instability of answers across systems and prompts.</li>
+      <li>Over-reliance on implicit inference when boundaries are not declared.</li>
+      <li>Illegitimate answers produced under missing, conflicting, or insufficient interpretive conditions.</li>
+    </ul>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">Structuring mechanisms (conceptual level)</h3>
+    <ul>
+      <li>Explicit boundaries and exclusions (what belongs / does not belong).</li>
+      <li>Source hierarchy and canonical references.</li>
+      <li>Entity and relationship coherence (cross-surface cross-checking).</li>
+      <li>Controlled redundancy (stability without divergence).</li>
+      <li>Machine-readable surfaces (Dual Web, conventions, graphs).</li>
+      <li>Response authorization as a procedural precondition (Q-Layer): answering is conditional, and non-response can be legitimate.</li>
+    </ul>
+  </section>
+
+  <section class="box" lang="fr-CA">
+    <h2 style="margin-top:0;">2) Définition (FR)</h2>
+    <p>
+      Le SEO interprétatif désigne une discipline visant à stabiliser la manière dont les moteurs de recherche et les systèmes d’IA générative interprètent et infèrent du sens à partir d’entités et de contenus web, afin de réduire les erreurs d’attribution et la dérive de périmètre.
+    </p>
+    <p class="meta">
+      Il ne vise pas à optimiser des pages isolées. Il vise à rendre un système informationnel plus interprétable, plus recoupable et moins vulnérable aux inférences implicites.
+    </p>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">Ce que ce n’est pas</h3>
+    <ul>
+      <li>Pas un synonyme de SEO technique ou SEO de contenu.</li>
+      <li>Pas une méthode opératoire reproductible.</li>
+      <li>Pas un playbook de croissance, ni une promesse de résultats.</li>
+      <li>Pas une stratégie de mots-clés visant uniquement le ranking.</li>
+      <li>Pas une checklist Schema.org.</li>
+    </ul>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">Problèmes visés</h3>
+    <ul>
+      <li>Attributions erronées (rôles, projets, capacités, services).</li>
+      <li>Dérives de périmètre et glissements d’identité.</li>
+      <li>Collisions sémantiques entre entités distinctes.</li>
+      <li>Instabilité des réponses selon les systèmes consultés.</li>
+      <li>Dépendance aux inférences par défaut lorsque les limites ne sont pas déclarées.</li>
+      <li>Réponses produites sans légitimité, lorsque les conditions interprétatives sont insuffisantes, ambiguës ou contradictoires.</li>
+    </ul>
+
+    <h3 style="margin-top:1.15rem; font-size:1.05rem;">Mécanismes structurants (niveau conceptuel)</h3>
+    <ul>
+      <li>Déclarations de périmètres et d’exclusions.</li>
+      <li>Hiérarchies de sources et renvois canoniques.</li>
+      <li>Cohérence des entités et relations (recoupement inter-surfaces).</li>
+      <li>Redondance contrôlée (stabilité sans divergence).</li>
+      <li>Surfaces machine-readable (Dual Web, conventions, graphes).</li>
+      <li>Autorisation de réponse comme précondition procédurale (Q-Layer)&#58; répondre est conditionnel, et la non-réponse peut être légitime.</li>
+    </ul>
   </section>
 
   <section class="box">
-    <h2 style="margin-top:0;">Scope (normative meaning)</h2>
-    <p>This definition covers:</p>
-    <ul>
-      <li>canonical naming (EN: Interpretive SEO; FR: SEO interprétatif);</li>
-      <li>inclusions and exclusions;</li>
-      <li>conceptual relations to Interpretive Governance and SSA-E + A2 + Dual Web.</li>
-    </ul>
-
-    <p style="margin-top:0.85rem;">This definition does not include:</p>
-    <ul>
-      <li>service packaging or commercial framing;</li>
-      <li>implementation recipes or operational procedures;</li>
-      <li>performance guarantees, ranking promises, or citation promises.</li>
-    </ul>
-  </section>
-
-  <section class="box">
-    <h2 style="margin-top:0;">Response legitimacy (Q-Layer)</h2>
+    <h2 style="margin-top:0;">3) Response legitimacy (Q-Layer)</h2>
     <p>
       Interpretive SEO is explicitly compatible with the <strong>Q-Layer</strong> (response legitimacy).
       In other words, <em>answering is not the default</em> for an AI system.
@@ -67,31 +192,42 @@
     </ul>
   </section>
 
-
   <section class="box">
-    <h2 style="margin-top:0;">Canonical references</h2>
+    <h2 style="margin-top:0;">4) Related canonical concepts</h2>
     <ul>
-      <li>Root canonical entry: <a href="https://interpretive-seo.org/">https://interpretive-seo.org/</a></li>
-      <li>Machine references: <a href="/links.json">/links.json</a></li>
-      <li>Interpretive Governance: <a href="https://interpretive-governance.org/">https://interpretive-governance.org/</a></li>
-      <li>Canonical development repository: <a href="https://github.com/GautierDorval/interpretive-seo">https://github.com/GautierDorval/interpretive-seo</a></li>
-      <li>Canonical author identity (human reading): <a href="https://gautierdorval.com/">https://gautierdorval.com/</a></li>
+      <li>Interpretive Governance (FR)&#58; <a href="https://gautierdorval.com/definitions/gouvernance-interpretative/">https&#58;//gautierdorval.com/definitions/gouvernance-interpretative/</a></li>
+      <li>SSA-E + A2 + Dual Web (FR)&#58; <a href="https://gautierdorval.com/definitions/ssa-e-a2-dual-web/">https&#58;//gautierdorval.com/definitions/ssa-e-a2-dual-web/</a></li>
+      <li>AI disambiguation (FR)&#58; <a href="https://gautierdorval.com/definitions/desambiguisation-ia/">https&#58;//gautierdorval.com/definitions/desambiguisation-ia/</a></li>
     </ul>
   </section>
 
   <section class="box">
-    <h2 style="margin-top:0;">Full definition source</h2>
+    <h2 style="margin-top:0;">5) Conceptual clarifications</h2>
     <p class="meta">
-      The full normative definition text is maintained and versioned in the repository’s <code>definition.md</code>.
-      This HTML file is a web-surface for the canonical domain and must remain consistent with the repository definition.
+      These resources provide normative clarifications of relationships between Interpretive SEO and adjacent disciplines.
+      They do not redefine the concept itself, but constrain how it should be positioned and interpreted.
     </p>
-    <p>
-      Source of truth: <a href="https://github.com/GautierDorval/interpretive-seo">https://github.com/GautierDorval/interpretive-seo</a>
-    </p>
+    <ul>
+      <li>Interpretive SEO vs Entity SEO vs GEO vs AEO (FR)&#58;
+        <a href="https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/">https&#58;//gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/</a>
+      </li>
+    </ul>
   </section>
 
-  <footer class="meta">
-    <p>For contextual, non-normative provenance: <a href="/context/">/context/</a></p>
+  <section class="box">
+    <h2 style="margin-top:0;">Canonical references</h2>
+    <ul>
+      <li>Root canonical entry&#58; <a href="https://interpretive-seo.org/">https&#58;//interpretive-seo.org/</a></li>
+      <li>Machine references&#58; <a href="/links.json">/links.json</a>, <a href="/ai-manifest.json">/ai-manifest.json</a>, <a href="/interpretive-seo.jsonld">/interpretive-seo.jsonld</a></li>
+      <li>Interpretive Governance&#58; <a href="https://interpretive-governance.org/">https&#58;//interpretive-governance.org/</a></li>
+      <li>Canonical development repository&#58; <a href="https://github.com/GautierDorval/interpretive-seo">https&#58;//github.com/GautierDorval/interpretive-seo</a></li>
+      <li>Canonical author identity&#58; <a href="https://gautierdorval.com/">https&#58;//gautierdorval.com/</a></li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <p class="meta">Non-normative provenance&#58; <a href="/context/">/context/</a></p>
+    <p class="meta">Back to canonical root&#58; <a href="/">/</a></p>
   </footer>
 </body>
 </html>

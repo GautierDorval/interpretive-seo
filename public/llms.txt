@@ -17,7 +17,7 @@ Do NOT infer:
 
 Primary machine references:
 - /links.json
-- /definition.html
+- /definition
 - /ai-manifest.json
 - /humans.txt
 

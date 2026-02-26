@@ -3,7 +3,7 @@
 **Status:** normative definition  
 **Version:** v0.3.2
 **Date:** 2026-02-16  
-**Canonical web reference:** https://interpretive-seo.org/definition.html  
+**Canonical web reference:** https://interpretive-seo.org/definition  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/
 
 ---
