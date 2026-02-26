@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Canonical concept reference
+# interpretive-seo.org defines a normative, conceptual reference only.
+# No crawl restrictions are applied.
+
+# Canonical entry point:
+# https://interpretive-seo.org/
+
+# Machine-readable references:
+# https://interpretive-seo.org/links.json
+# https://interpretive-seo.org/ai-manifest.json
+# https://interpretive-seo.org/.well-known/ai-governance.json
+
+Sitemap: https://interpretive-seo.org/sitemap.xml
