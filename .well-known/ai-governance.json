@@ -1,0 +1,16 @@
+{
+  "name": "Interpretive SEO — AI governance pointer",
+  "canonical": "https://interpretive-seo.org/",
+  "version": "0.3.2",
+  "releaseDate": "2026-02-16",
+  "pointers": {
+    "aiManifest": "https://interpretive-seo.org/ai-manifest.json",
+    "links": "https://interpretive-seo.org/links.json",
+    "llms": "https://interpretive-seo.org/llms.txt",
+    "llmsFull": "https://interpretive-seo.org/llms-full.txt",
+    "humans": "https://interpretive-seo.org/humans.txt",
+    "definition": "https://interpretive-seo.org/definition",
+    "context": "https://interpretive-seo.org/context/"
+  },
+  "normativeRule": "Only artifacts exposed at the root of interpretive-seo.org are normative. /context/ is non-normative."
+}
