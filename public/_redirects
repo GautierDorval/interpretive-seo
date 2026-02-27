@@ -1,10 +1,11 @@
 # Prefer apex domain
 https://www.interpretive-seo.org/* https://interpretive-seo.org/:splat 301!
 
-# Canonicalize definition URL (avoid redirect loops with pretty-URL hosts)
-/definition.html /definition 301!
-/definition/ /definition 301!
-/definition /definition.html 200
+# Canonical definition URL
+/definition.html /definition/ 301!
+/definition/index.html /definition/ 301!
+/definition /definition/ 301!
 
 # Optional convenience redirects
 /context /context/ 301!
+/context/index.html /context/ 301!
