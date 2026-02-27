@@ -81,7 +81,6 @@ Il vise à rendre un système informationnel plus interprétable, plus recoupabl
 ## 3) Related canonical concepts
 
 - Interpretive governance (FR): https://gautierdorval.com/definitions/gouvernance-interpretative/
-- SSA-E + A2 + Dual Web (FR): https://gautierdorval.com/definitions/ssa-e-a2-dual-web/
 - AI disambiguation (FR): https://gautierdorval.com/definitions/desambiguisation-ia/
 
   ---
