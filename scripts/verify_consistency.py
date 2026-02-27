@@ -53,19 +53,29 @@ def main() -> int:
     except Exception as e:
         return fail([str(e)])
 
+    # Required canonical surfaces (repository + published web surfaces)
     required_files = [
         "README.md",
         "definition.md",
         "links.json",
         "public/links.json",
         "public/index.html",
-        "public/definition.html",
+        "public/definition/index.html",
+        "public/context/index.html",
+        "public/fr/index.html",
+        "public/fr/definition/index.html",
+        "public/fr/context/index.html",
         "public/humans.txt",
         "public/ai-manifest.json",
         "public/.well-known/ai-governance.json",
         "public/llms-full.txt",
+        "public/llms.txt",
         "interpretive-seo.jsonld",
         "public/interpretive-seo.jsonld",
+        "public/_redirects",
+        "public/robots.txt",
+        "public/sitemap.xml",
+        "public/_headers",
         "CITATION.cff",
         "LICENSE",
     ]
@@ -104,7 +114,11 @@ def main() -> int:
         "README.md": version_v,
         "definition.md": version_v,
         "public/index.html": version,
-        "public/definition.html": version_v,
+        "public/definition/index.html": version_v,
+        "public/context/index.html": version_v,
+        "public/fr/index.html": version,
+        "public/fr/definition/index.html": version_v,
+        "public/fr/context/index.html": version_v,
         "public/humans.txt": version,
         "public/ai-manifest.json": version,
         "public/.well-known/ai-governance.json": version,
@@ -116,9 +130,39 @@ def main() -> int:
         if needle not in txt:
             errors.append(f"Version drift: '{needle}' not found in {rel}")
 
-    # Quick sanity: Q-Layer must be present in public definition surface
-    if "Q-Layer" not in read_text(ROOT / "public/definition.html"):
-        errors.append("public/definition.html must mention Q-Layer (response legitimacy).")
+    # Quick sanity: Q-Layer must be present in the public definition surface
+    if "Q-Layer" not in read_text(ROOT / "public/definition/index.html"):
+        errors.append("public/definition/index.html must mention Q-Layer (response legitimacy).")
+
+    # P0: hreflang must not lie (FR pages must exist and be French)
+    fr_pages = [
+        "public/fr/index.html",
+        "public/fr/definition/index.html",
+        "public/fr/context/index.html",
+    ]
+    fr_markers = ["SEO interprétatif", "Définition", "Contexte", "Accueil"]
+    for rel in fr_pages:
+        txt = read_text(ROOT / rel)
+        if 'lang="fr-CA"' not in txt:
+            errors.append(f"{rel} must declare lang=\"fr-CA\"")
+        if not any(m in txt for m in fr_markers):
+            errors.append(f"{rel} appears non-FR (missing FR markers).")
+
+    # P1: hreflang must exist on key pages (home, definition, context)
+    pairs = [
+        ("public/index.html", "https://interpretive-seo.org/fr/"),
+        ("public/definition/index.html", "https://interpretive-seo.org/fr/definition/"),
+        ("public/context/index.html", "https://interpretive-seo.org/fr/context/"),
+        ("public/fr/index.html", "https://interpretive-seo.org/"),
+        ("public/fr/definition/index.html", "https://interpretive-seo.org/definition/"),
+        ("public/fr/context/index.html", "https://interpretive-seo.org/context/"),
+    ]
+    for rel, expected_href in pairs:
+        txt = read_text(ROOT / rel)
+        if "hreflang" not in txt:
+            errors.append(f"{rel} is missing hreflang alternates.")
+        if expected_href not in txt:
+            errors.append(f"{rel} missing alternate href: {expected_href}")
 
     # CITATION type should not be software
     if "type: software" in read_text(ROOT / "CITATION.cff"):

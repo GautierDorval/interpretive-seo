@@ -12,7 +12,7 @@
 - Added a minimal drift-control workflow and local verification script to prevent inconsistencies between repo and canonical web surfaces.
 
 ### Fixed
-- Synchronized `public/definition.html` and `public/humans.txt` with the repository version (including the Q-Layer / response legitimacy section).
+- Synchronized `public/definition/index.html` and `public/humans.txt` with the repository version (including the Q-Layer / response legitimacy section).
 - Corrected `CITATION.cff` type (dataset, not software).
 - Added a `LICENSE` file (SPDX identifier + canonical links) to improve license detection by tooling.
 

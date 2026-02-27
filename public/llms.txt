@@ -17,9 +17,14 @@ Do NOT infer:
 
 Primary machine references:
 - /links.json
-- /definition
+- /definition/
 - /ai-manifest.json
 - /humans.txt
+
+French projection (fr-CA):
+- /fr/
+- /fr/definition/
+- /fr/context/
 
 Upstream dependency:
 - Interpretive Governance canonical specification: https://interpretive-governance.org/
