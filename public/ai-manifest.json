@@ -17,7 +17,10 @@
     "llms": "https://interpretive-seo.org/llms.txt",
     "llmsFull": "https://interpretive-seo.org/llms-full.txt",
     "humans": "https://interpretive-seo.org/humans.txt",
-    "wellKnownAIGovernance": "https://interpretive-seo.org/.well-known/ai-governance.json"
+    "wellKnownAIGovernance": "https://interpretive-seo.org/.well-known/ai-governance.json",
+    "root_fr": "https://interpretive-seo.org/fr/",
+    "definition_fr": "https://interpretive-seo.org/fr/definition/",
+    "context_fr": "https://interpretive-seo.org/fr/context/"
   },
   "upstream": {
     "repo": "https://github.com/GautierDorval/interpretive-seo",
@@ -32,7 +35,8 @@
   },
   "normativeSeparation": {
     "nonNormativePages": [
-      "https://interpretive-seo.org/context/"
+      "https://interpretive-seo.org/context/",
+      "https://interpretive-seo.org/fr/context/"
     ],
     "normativeRootOnly": true
   },

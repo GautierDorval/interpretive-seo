@@ -7,7 +7,9 @@
   "canonical": {
     "web_definition": "https://interpretive-seo.org/",
     "definition_html": "https://interpretive-seo.org/definition/",
-    "repository": "https://github.com/GautierDorval/interpretive-seo"
+    "repository": "https://github.com/GautierDorval/interpretive-seo",
+    "root_fr": "https://interpretive-seo.org/fr/",
+    "definition_html_fr": "https://interpretive-seo.org/fr/definition/"
   },
   "mirror": {
     "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
@@ -32,7 +34,8 @@
     "ssa_e_a2_dual_web_fr_definition": "https://gautierdorval.com/definitions/ssa-e-a2-dual-web/",
     "ai_disambiguation_fr_definition": "https://gautierdorval.com/definitions/desambiguisation-ia/",
     "frameworks_registry": "https://gautierdorval.com/frameworks/",
-    "citations_fidelite_interpretative_framework": "https://gautierdorval.com/frameworks/citations-fidelite-interpretative/"
+    "citations_fidelite_interpretative_framework": "https://gautierdorval.com/frameworks/citations-fidelite-interpretative/",
+    "context_fr": "https://interpretive-seo.org/fr/context/"
   },
   "clarifications": {
     "seo_interpretatif_vs_entity_seo_geo_aeo": {

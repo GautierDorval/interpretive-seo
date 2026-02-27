@@ -9,3 +9,12 @@ https://www.interpretive-seo.org/* https://interpretive-seo.org/:splat 301!
 # Optional convenience redirects
 /context /context/ 301!
 /context/index.html /context/ 301!
+
+# French (fr-CA) canonical URLs
+/fr /fr/ 301!
+/fr/index.html /fr/ 301!
+/fr/definition.html /fr/definition/ 301!
+/fr/definition/index.html /fr/definition/ 301!
+/fr/definition /fr/definition/ 301!
+/fr/context /fr/context/ 301!
+/fr/context/index.html /fr/context/ 301!
