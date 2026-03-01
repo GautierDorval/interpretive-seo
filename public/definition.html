@@ -9,11 +9,12 @@
   <meta name="description" content="Long-form normative definition of Interpretive SEO (FR: SEO interprétatif), including scope boundaries, exclusions, and canonical dependencies." />
   <meta name="robots" content="index,follow" />
   <meta name="author" content="Gautier Dorval" />
+  <script>document.documentElement.classList.add('js');</script>
 
   <link rel="canonical" href="https://interpretive-seo.org/definition" />
 
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260226-1" />
-  <link rel="stylesheet" href="/assets/style.css?v=20260226-1" />
+  <link rel="stylesheet" href="/assets/style.css?v=20260301-1" />
 
   <meta property="og:site_name" content="Interpretive SEO" />
   <meta property="og:title" content="Definition | Interpretive SEO" />
@@ -91,26 +92,40 @@
     ]
   }
   </script>
+  <script src="/assets/site.js?v=20260301-1" defer></script>
 </head>
 
 <body>
   <header class="topbar">
     <div class="container">
-      <div class="brand">
-        <img alt="Interpretive SEO" height="34" width="34" src="/assets/logo.svg?v=20260226-1" />
-        <div>
-          <div><strong>Interpretive SEO</strong> <span class="badge">normative</span></div>
-          <div class="muted" style="font-size:13px">Normative definition (conceptual, non-executable).</div>
+      <div class="topbar-inner">
+        <div class="brand">
+          <img alt="Interpretive SEO" height="34" width="34" src="/assets/logo.svg?v=20260226-1" />
+          <div>
+            <div><strong>Interpretive SEO</strong> <span class="badge">normative</span></div>
+            <div class="muted" style="font-size:13px">Normative definition (conceptual, non-executable).</div>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="lang-switch" aria-label="Language switch">
+            <a class="active" href="/definition/">English</a>
+            <a class="" href="/fr/definition/">Français</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+            <span class="menu-toggle-label">Menu</span>
+            <span class="menu-toggle-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
 
-      <nav aria-label="Primary">
+      <nav id="primary-nav" class="site-nav" aria-label="Primary" data-nav>
         <a class="" href="/">Home</a>
-        <a class="active" href="/definition">Definition</a>
+        <a class="active" href="/definition/">Definition</a>
         <a class="" href="/context/">Context</a>
         <a class="" href="/links.json">links.json</a>
         <a class="" href="/llms.txt">llms.txt</a>
-        <a href="#fr">Français</a>
       </nav>
     </div>
   </header>

@@ -10,6 +10,7 @@
   <meta name="robots" content="index,follow" />
   <meta name="author" content="Gautier Dorval" />
   <meta name="theme-color" content="#0b0d12" />
+  <script>document.documentElement.classList.add('js');</script>
 
   <link rel="canonical" href="https://interpretive-seo.org/fr/definition/" />
   <link rel="alternate" hreflang="en" href="https://interpretive-seo.org/definition/" />
@@ -17,7 +18,7 @@
   <link rel="alternate" hreflang="x-default" href="https://interpretive-seo.org/definition/" />
 
   <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260226-1" />
-  <link rel="stylesheet" href="/assets/style.css?v=20260226-1" />
+  <link rel="stylesheet" href="/assets/style.css?v=20260301-1" />
 
   <meta property="og:site_name" content="Interpretive SEO" />
   <meta property="og:title" content="Définition | Interpretive SEO" />
@@ -95,7 +96,7 @@
         "@id": "https://interpretive-seo.org/#interpretive-seo"
       },
       "inLanguage": "fr-CA",
-      "dateModified": "2026-02-27",
+      "dateModified": "2026-03-01",
       "author": {
         "@id": "https://interpretive-seo.org/#person"
       }
@@ -103,6 +104,7 @@
   ]
 }
   </script>
+  <script src="/assets/site.js?v=20260301-1" defer></script>
 </head>
 <body>
   <header class="topbar">
@@ -116,13 +118,20 @@
           </div>
         </div>
 
-        <div class="lang-switch" aria-label="Language switch">
-          <a class="" href="/definition/">English</a>
-          <a class="active" href="/fr/definition/">Français</a>
+        <div class="topbar-actions">
+          <div class="lang-switch" aria-label="Sélecteur de langue">
+            <a class="" href="/definition/">English</a>
+            <a class="active" href="/fr/definition/">Français</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+            <span class="menu-toggle-label">Menu</span>
+            <span class="menu-toggle-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
 
-      <nav aria-label="Primary">
+      <nav id="primary-nav" class="site-nav" aria-label="Navigation principale" data-nav>
         <a class="" href="/fr/">Accueil</a>
         <a class="active" href="/fr/definition/">Définition</a>
         <a class="" href="/fr/context/">Contexte</a>
@@ -211,7 +220,7 @@
     </div>
 
     <div class="footer">
-      Dernière mise à jour : 2026-02-27. Cette définition est conceptuelle et non opérationnelle.
+      Dernière mise à jour : 2026-03-01. Cette définition est conceptuelle et non opérationnelle.
     </div>
   </main>
 </body>
