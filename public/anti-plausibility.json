@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0",
+  "site": "https://interpretive-seo.org",
+  "doctrineVersion": "0.4.0",
+  "generatedAt": "2026-03-15",
+  "rule": "plausibility is not authorization",
+  "prohibited": [
+    "entity substitution by resemblance",
+    "fluent completion of missing facts",
+    "service reconstruction from generic SEO patterns",
+    "operational extrapolation from non-operational doctrine",
+    "institutional over-claiming from association links"
+  ],
+  "required": [
+    "state uncertainty explicitly",
+    "preserve unknowns",
+    "request clarification when ambiguity is material"
+  ]
+}

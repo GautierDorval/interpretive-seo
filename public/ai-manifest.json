@@ -3,8 +3,8 @@
   "type": "canonical-concept-reference",
   "status": "normative definition (conceptual, non-executable)",
   "canonical": "https://interpretive-seo.org/",
-  "version": "0.3.2",
-  "releaseDate": "2026-02-16",
+  "version": "0.4.0",
+  "releaseDate": "2026-03-15",
   "language": [
     "en",
     "fr-CA"
@@ -13,6 +13,10 @@
     "root": "https://interpretive-seo.org/",
     "definition": "https://interpretive-seo.org/definition/",
     "context": "https://interpretive-seo.org/context/",
+    "sourcePrecedence": "https://interpretive-seo.org/source-precedence/",
+    "responseLegitimacy": "https://interpretive-seo.org/response-legitimacy/",
+    "antiPlausibility": "https://interpretive-seo.org/anti-plausibility/",
+    "outputConstraints": "https://interpretive-seo.org/output-constraints/",
     "links": "https://interpretive-seo.org/links.json",
     "llms": "https://interpretive-seo.org/llms.txt",
     "llmsFull": "https://interpretive-seo.org/llms-full.txt",
@@ -20,18 +24,24 @@
     "wellKnownAIGovernance": "https://interpretive-seo.org/.well-known/ai-governance.json",
     "root_fr": "https://interpretive-seo.org/fr/",
     "definition_fr": "https://interpretive-seo.org/fr/definition/",
-    "context_fr": "https://interpretive-seo.org/fr/context/"
+    "context_fr": "https://interpretive-seo.org/fr/context/",
+    "sourcePrecedence_fr": "https://interpretive-seo.org/fr/precedence-des-sources/",
+    "responseLegitimacy_fr": "https://interpretive-seo.org/fr/legitimite-de-reponse/",
+    "antiPlausibility_fr": "https://interpretive-seo.org/fr/anti-plausibilite/",
+    "outputConstraints_fr": "https://interpretive-seo.org/fr/contraintes-de-sortie/"
   },
   "upstream": {
     "repo": "https://github.com/GautierDorval/interpretive-seo",
     "interpretiveGovernance": "https://interpretive-governance.org/",
+    "inferenslab": "https://inferenslab.org/",
     "ssaEA2Doctrine": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
     "qLayer": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
   },
   "provenance": {
     "authorName": "Gautier Dorval",
     "authorUrl": "https://gautierdorval.com/",
-    "canonicalIdentityRepo": "https://github.com/GautierDorval/gautierdorval-identity"
+    "canonicalIdentityRepo": "https://github.com/GautierDorval/gautierdorval-identity",
+    "doctrinalInstitutionalSurface": "https://inferenslab.org/"
   },
   "normativeSeparation": {
     "nonNormativePages": [
@@ -41,6 +51,8 @@
     "normativeRootOnly": true
   },
   "machineReferences": {
-    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld"
+    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld",
+    "entityGraph": "https://interpretive-seo.org/entity-graph.jsonld",
+    "datasetDeclaration": "https://interpretive-seo.org/datasets.jsonld"
   }
 }

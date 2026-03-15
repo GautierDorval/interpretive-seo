@@ -1,0 +1,16 @@
+{
+  "site": "https://interpretive-seo.org",
+  "version": "0.4.0",
+  "generatedAt": "2026-03-15",
+  "instruction": "read constraint-first",
+  "priority": [
+    "https://interpretive-seo.org/ai-governance.json",
+    "https://interpretive-seo.org/interpretation-policy.json",
+    "https://interpretive-seo.org/response-legitimacy.json",
+    "https://interpretive-seo.org/anti-plausibility.json",
+    "https://interpretive-seo.org/output-constraints.json",
+    "https://interpretive-seo.org/qlayer.json",
+    "https://interpretive-seo.org/links.json",
+    "https://interpretive-seo.org/definition/"
+  ]
+}

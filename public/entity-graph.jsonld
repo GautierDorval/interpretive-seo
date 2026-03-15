@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://interpretive-seo.org/#website",
+      "url": "https://interpretive-seo.org/",
+      "name": "Interpretive SEO",
+      "description": "Public doctrinal term reference for Interpretive SEO.",
+      "about": {
+        "@id": "https://interpretive-seo.org/#term"
+      },
+      "mentions": [
+        {
+          "@id": "https://interpretive-governance.org/#website"
+        },
+        {
+          "@id": "https://inferenslab.org/#website"
+        },
+        {
+          "@id": "https://gautierdorval.com/#website"
+        }
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://interpretive-seo.org/#term",
+      "name": "Interpretive SEO",
+      "alternateName": [
+        "SEO interprétatif",
+        "SEO interpretatif"
+      ],
+      "url": "https://interpretive-seo.org/",
+      "inDefinedTermSet": "https://interpretive-governance.org/",
+      "description": "Interpretive SEO is a discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content, in order to reduce attribution errors and scope drift.",
+      "isBasedOn": "https://github.com/GautierDorval/interpretive-seo"
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://interpretive-governance.org/#website",
+      "name": "Interpretive Governance",
+      "url": "https://interpretive-governance.org/",
+      "description": "Parent interpretive standard referenced by Interpretive SEO."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://inferenslab.org/#website",
+      "name": "InferensLab — doctrine",
+      "url": "https://inferenslab.org/",
+      "description": "Public institutional doctrinal hub associated with the Interpretive SEO doctrinal network."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://gautierdorval.com/#website",
+      "name": "Gautier Dorval",
+      "url": "https://gautierdorval.com/",
+      "description": "Primary doctrinal source and authorial context surface."
+    }
+  ]
+}

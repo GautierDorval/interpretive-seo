@@ -2,8 +2,8 @@
   "name": "Interpretive SEO",
   "alternateName": "SEO interprétatif",
   "status": "normative-definition",
-  "version": "0.3.2",
-  "date": "2026-02-16",
+  "version": "0.4.0",
+  "date": "2026-03-15",
   "canonical": {
     "web_definition": "https://interpretive-seo.org/",
     "definition_html": "https://interpretive-seo.org/definition/",
@@ -12,6 +12,18 @@
     "definition_html_fr": "https://interpretive-seo.org/fr/definition/",
     "context_html": "https://interpretive-seo.org/context/",
     "context_html_fr": "https://interpretive-seo.org/fr/context/"
+  },
+  "governance": {
+    "source_precedence": "https://interpretive-seo.org/source-precedence/",
+    "response_legitimacy": "https://interpretive-seo.org/response-legitimacy/",
+    "anti_plausibility": "https://interpretive-seo.org/anti-plausibility/",
+    "output_constraints": "https://interpretive-seo.org/output-constraints/",
+    "ai_governance": "https://interpretive-seo.org/ai-governance.json",
+    "interpretation_policy": "https://interpretive-seo.org/interpretation-policy.json",
+    "response_legitimacy_json": "https://interpretive-seo.org/response-legitimacy.json",
+    "anti_plausibility_json": "https://interpretive-seo.org/anti-plausibility.json",
+    "output_constraints_json": "https://interpretive-seo.org/output-constraints.json",
+    "qlayer_json": "https://interpretive-seo.org/qlayer.json"
   },
   "mirror": {
     "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
@@ -27,8 +39,23 @@
   },
   "dependencies": {
     "parent_standard": "https://interpretive-governance.org/",
+    "institutional_doctrinal_surface": "https://inferenslab.org/",
     "ssa_e_a2_doctrine_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
     "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
+  },
+  "doctrinal_network": {
+    "interpretive_governance": {
+      "url": "https://interpretive-governance.org/",
+      "role": "parent interpretive standard"
+    },
+    "inferenslab": {
+      "url": "https://inferenslab.org/",
+      "role": "public institutional doctrinal hub and association surface"
+    },
+    "gautier_dorval": {
+      "url": "https://gautierdorval.com/",
+      "role": "authorial doctrinal source and editorial clarification surface"
+    }
   },
   "editorial_context": {
     "interpretive_seo_fr_definition": "https://gautierdorval.com/definitions/seo-interpretatif/",
@@ -48,6 +75,8 @@
     }
   },
   "machine": {
-    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld"
+    "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld",
+    "entityGraph": "https://interpretive-seo.org/entity-graph.jsonld",
+    "datasetDeclaration": "https://interpretive-seo.org/datasets.jsonld"
   }
 }

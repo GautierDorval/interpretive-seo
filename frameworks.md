@@ -1,17 +1,14 @@
-# Application frameworks registry (gautierdorval.com)
+# Application frameworks and doctrinal network registry
 
-This file is a lightweight index of application-level frameworks that derive from the
-Interpretive Governance doctrine and are published on gautierdorval.com.
+This file lists contextual and doctrinally related surfaces.
 
-These links are provided as **contextual surfaces**. They do not redefine the canonical
-meaning of **Interpretive SEO** (see README and definition).
+## Parent standard
+- Interpretive Governance: https://interpretive-governance.org/
 
-## Registry
+## Institutional doctrinal association
+- InferensLab doctrine: https://inferenslab.org/
 
-- Frameworks and applicable frameworks registry: https://gautierdorval.com/frameworks/
-
-## Entries
-
-- Citations, inference, and distortion: interpretive fidelity vs visibility  
-  https://gautierdorval.com/frameworks/citations-fidelite-interpretative/
-
+## Authorial doctrine and framework registry
+- Gautier Dorval doctrine: https://gautierdorval.com/
+- Framework registry: https://gautierdorval.com/frameworks/
+- Citations, inference, and distortion: https://gautierdorval.com/frameworks/citations-fidelite-interpretative/

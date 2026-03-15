@@ -77,3 +77,6 @@ code{background:#0f1420;border:1px solid var(--line);padding:1px 6px;border-radi
   .js .site-nav.is-open{display:flex}
   .js .site-nav a{padding:0}
 }
+
+.pill-row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.pill{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted)}
+ol{margin:10px 0 10px 22px}

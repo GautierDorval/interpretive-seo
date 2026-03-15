@@ -8,8 +8,8 @@ Web: https://interpretive-seo.org/
 Name (EN): Interpretive SEO
 Name (FR): SEO interprétatif
 Status: normative definition (conceptual, non-executable)
-Version: 0.3.2
-Release date: 2026-02-16
+Version: 0.4.0
+Release date: 2026-03-15
 
 /* AUTHOR AND PROVENANCE */
 Author: Gautier Dorval
@@ -17,11 +17,16 @@ Role: Interpretive governance, entity disambiguation, semantic stabilization
 Canonical identity (human): https://gautierdorval.com/
 Canonical identity (repo): https://github.com/GautierDorval/gautierdorval-identity
 
+/* DOCTRINAL NETWORK */
+Parent standard: https://interpretive-governance.org/
+Institutional doctrinal association: https://inferenslab.org/
+Primary doctrinal source: https://gautierdorval.com/
+
 /* CANONICAL REFERENCES */
 Canonical domain: https://interpretive-seo.org/
 Canonical repo: https://github.com/GautierDorval/interpretive-seo
-Interpretive Governance (dependency): https://interpretive-governance.org/
+Hard governance file: https://interpretive-seo.org/ai-governance.json
 
 /* NORMATIVE SEPARATION */
-The /context/ page is non-normative and provides contextual information only.
-All normative meaning is defined exclusively by root-level artifacts on interpretive-seo.org.
+The /context/ and /fr/context/ pages are non-normative and provide contextual information only.
+All normative meaning is defined by the hard governance files, root-level artifacts, and /definition/ surfaces on interpretive-seo.org.

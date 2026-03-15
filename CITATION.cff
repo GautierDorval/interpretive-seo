@@ -13,35 +13,28 @@ authors:
     given-names: "Gautier"
 
 repository-artifact: "links.json"
-
-# Canonical web authority (normative definition)
 url: "https://interpretive-seo.org/"
-
-# Versioned specification and citation source
 repository-code: "https://github.com/GautierDorval/interpretive-seo"
 
 abstract: >
   Normative, versioned definition of the concept Interpretive SEO
-  (FR: SEO interprétatif), including scope, exclusions, and canonical
-  references, aligned with the Interpretive Governance standard.
+  (FR: SEO interprétatif), including scope, exclusions, source precedence,
+  response legitimacy, doctrinal associations, and machine-readable
+  governance surfaces aligned with the Interpretive Governance standard.
 
 license: "CC-BY-NC-SA-4.0"
-version: "0.3.2"
-date-released: "2026-02-16"
+version: "0.4.0"
+date-released: "2026-03-15"
 
 keywords:
   - "Interpretive SEO"
   - "SEO interprétatif"
   - "Interpretive Governance"
+  - "InferensLab"
   - "Entity disambiguation"
-  - "Semantic architecture"
+  - "Response legitimacy"
+  - "Anti-plausibility"
   - "Machine-readable governance"
-  - "LLM interpretation"
-  - "Scope boundaries"
-  - "Attribution stability"
-  - "Dual Web"
-  - "SSA-E"
-  - "A2"
 
 preferred-citation:
   type: dataset
@@ -50,8 +43,8 @@ preferred-citation:
     - family-names: "Dorval"
       given-names: "Gautier"
   year: 2026
-  version: "0.3.2"
-  date-released: "2026-02-16"
+  version: "0.4.0"
+  date-released: "2026-03-15"
   url: "https://interpretive-seo.org/"
   repository-code: "https://github.com/GautierDorval/interpretive-seo"
   license: "CC-BY-NC-SA-4.0"

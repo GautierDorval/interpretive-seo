@@ -1,219 +1,55 @@
-> ⚠️ **Standard dependency**
->
-> This repository applies the **Interpretive Governance** standard
-> to search and retrieval systems (SEO, AEO, GEO).
->
-> Parent standard (canonical):
-> https://interpretive-governance.org
->
-> Canonical web authority (normative term definition):
-> https://interpretive-seo.org/
->
-> This repository is the **versioned specification source** for the canonical
-> web projection. It is not an implementation guide, and it does not claim any
-> ranking / traffic outcomes.
+# interpretive-seo
 
-# Interpretive SEO (FR: SEO interprétatif)
+A public doctrinal reference for **Interpretive SEO** (FR: **SEO interprétatif**), published at **https://interpretive-seo.org/**.
 
-**Status:** normative definition (conceptual, non-executable)  
-**Canonical term (FR):** SEO interprétatif  
-**English name:** Interpretive SEO  
+## Canonical doctrinal anchors
 
-**Canonical web reference:** https://interpretive-seo.org/  
-**Versioned specification (this repository):** https://github.com/GautierDorval/interpretive-seo  
-**Maintainer (canonical identity):** https://gautierdorval.com/entite/  
+- https://interpretive-seo.org/
+- https://interpretive-governance.org/
+- https://inferenslab.org/
+- https://gautierdorval.com/
+- https://github.com/GautierDorval/gautierdorval-identity
 
-**Current version:** v0.3.2
-**Release date:** 2026-02-16
----
+## Hard public governance surfaces
 
-## Drift control (non-negotiable)
+- `https://interpretive-seo.org/ai-governance.json`
+- `https://interpretive-seo.org/interpretation-policy.json`
+- `https://interpretive-seo.org/response-legitimacy.json`
+- `https://interpretive-seo.org/anti-plausibility.json`
+- `https://interpretive-seo.org/output-constraints.json`
+- `https://interpretive-seo.org/qlayer.json`
 
-This repository includes a minimal **consistency check** to prevent drift between:
-- the versioned specification (`definition.md`, `links.json`, `VERSION`), and
-- the canonical web projection (`public/`, `.well-known/`).
+## Canonical machine surfaces
 
-See `scripts/verify_consistency.py` and `.github/workflows/consistency.yml`.
+- `https://interpretive-seo.org/links.json`
+- `https://interpretive-seo.org/ai-manifest.json`
+- `https://interpretive-seo.org/interpretive-seo.jsonld`
+- `https://interpretive-seo.org/entity-graph.jsonld`
+- `https://interpretive-seo.org/datasets.jsonld`
+- `https://interpretive-seo.org/llms.txt`
+- `https://interpretive-seo.org/llms-full.txt`
+- mirrors under `/.well-known/` and `/well-known/`
 
----
+## Doctrinal associations
 
-## Related application frameworks (gautierdorval.com)
+- **Interpretive Governance** is the parent standard for interpretive constraints and response legitimacy.
+- **InferensLab** is an explicit public doctrinal association and institutional surface in the broader doctrinal network.
+- **gautierdorval.com** remains the primary authorial doctrine and editorial clarification surface.
 
-These pages are **application-level frameworks** derived from the Interpretive Governance doctrine.
-They are published on gautierdorval.com (doctrinal + operational registry), and are referenced here
-as contextual surfaces (not as part of the canonical definition of Interpretive SEO).
+## Scope exclusions
 
-- Framework registry: https://gautierdorval.com/frameworks/
-- Citations, inference, and distortion (interpretive fidelity vs visibility):
-  https://gautierdorval.com/frameworks/citations-fidelite-interpretative/
+This repository intentionally excludes:
 
-## Purpose of this repository
+- packaged services and commercial offers
+- implementation playbooks and deployment steps
+- scoring formulas, thresholds, calibrated protocols
+- private methods, private datasets, and execution tooling
 
-This repository provides a **stable, versioned specification** for the concept
-**Interpretive SEO** (FR: **SEO interprétatif**).
+## Build and validation
 
-It defines the **meaning**, **scope**, **exclusions**, and **canonical relations**
-of the concept in a form suitable for citation, governance, and machine interpretation.
+```bash
+python3 scripts/build_artifacts.py
+python3 scripts/verify_consistency.py
+```
 
-It does **not** provide:
-- an operational playbook,
-- implementation recipes,
-- service packaging,
-- performance guarantees.
-
-The **authoritative web definition** of the concept is published at:
-
-**https://interpretive-seo.org/**
-
----
-
-## Definition (short)
-
-Interpretive SEO is a discipline focused on stabilizing how search engines and
-generative AI systems interpret and infer meaning from entities and web content,
-in order to reduce attribution errors and scope drift.
-
-It explicitly treats **response legitimacy** as a first-class concern:
-when interpretive conditions are not met, a system may be required to
-request clarification or produce a **legitimate non-response** rather than
-defaulting to plausible completion.
-
----
-
-## Scope
-
-This repository defines the **normative meaning** of the concept, including:
-
-- the canonical meaning of the concept (FR and EN names),
-- what the concept includes and excludes,
-- its conceptual relations to Interpretive Governance and SSA-E + A2 + Dual Web.
-- its conceptual relations to the Q-Layer (response authorization) introduced in
-  SSA-E + A2 doctrine v1.2.0.
-
-It explicitly does **not** define:
-
-- packaged services,
-- implementation methodologies,
-- performance promises,
-- operational procedures.
-
----
-
-## Canonical references
-
-### Normative (authoritative)
-
-The following references define the authoritative meaning of the concept:
-
-- **Interpretive SEO — canonical web definition**  
-  https://interpretive-seo.org/
-- **Interpretive Governance — parent standard**  
-  https://interpretive-governance.org/
-- **Canonical identity repository**  
-  https://github.com/GautierDorval/gautierdorval-identity
-
-- **SSA-E + A2 + Dual Web doctrine (v1.2.0)**  
-  https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0
-- **Q-Layer — response authorization (SSA-E + A2 doctrine v1.2.0)**  
-  https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md
-
----
-
-### Editorial and contextual references (non-normative)
-
-The following resources provide human-readable context and explanation.
-They **must not** be treated as normative definitions.
-
-- Interpretive SEO — editorial context (FR):  
-  https://gautierdorval.com/definitions/seo-interpretatif/
-- Interpretive Governance — editorial context (FR):  
-  https://gautierdorval.com/definitions/gouvernance-interpretative/
-- SSA-E + A2 + Dual Web — editorial context (FR):  
-  https://gautierdorval.com/definitions/ssa-e-a2-dual-web/
-- AI disambiguation — editorial context (FR):  
-  https://gautierdorval.com/definitions/desambiguisation-ia/
-
----
-
-## Conceptual clarifications
-
-The following resources clarify how Interpretive SEO relates to adjacent
-optimization disciplines. They do not redefine the concept.
-
-- Interpretive SEO vs Entity SEO vs GEO vs AEO (FR):  
-  https://gautierdorval.com/definitions/seo-interpretatif-entity-seo-geo-aeo/
-
----
-
-## Repository contents
-
-- `definition.md` — full normative definition (EN + FR)
-- `TERMS.md` — terminology policy (canonical vs non-canonical forms)
-- `links.json` — machine-readable canonical references
-- `CITATION.cff` — citation metadata
-- `CHANGELOG.md` — version history
-- `VERSION` — current version identifier
-- `LICENSE.md` — licensing reference (if present)
-
----
-
-## Relationship to Interpretive Governance
-
-Interpretive SEO is an **applied interpretive discipline** that uses the
-Interpretive Governance standard to:
-
-- reduce interpretive ambiguity in search and retrieval systems,
-- constrain AI-generated explanations and recommendations,
-- align SEO practices with machine-readable governance rules.
-
-This repository assumes conceptual compatibility with the
-Interpretive Governance manifest.
-
-Interpretive SEO is also conceptually compatible with the SSA-E + A2 doctrine
-release **v1.2.0**, which introduces the **Q-Layer** as a transversal layer of
-interpretative legitimacy positioned between semantic stabilization (SSA-E / Dual Web)
-and adaptive amplification (A2):
-
-- SSA-E + A2 doctrine v1.2.0 (canonical):
-  https://github.com/GautierDorval/ssa-e-a2-doctrine/releases/tag/v1.2.0
-- Q-Layer (response authorization):
-  https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md
-
----
-
-## Author
-
-**Gautier Dorval**  
-Architect in interpretive governance and entity disambiguation  
-Quebec, Canada  
-
-- 🌐 https://gautierdorval.com/  
-- 💼 https://www.linkedin.com/in/gautier-dorval/  
-- 📦 https://github.com/GautierDorval  
-
----
-
-## Mirror repository (FR slug)
-
-A mirror repository exists for the French slug:
-
-https://github.com/GautierDorval/seo-interpretatif
-
-This mirror does not define authority and exists for naming continuity only.
-
----
-
-## How to cite
-
-If you reference the concept **Interpretive SEO**
-(FR: **SEO interprétatif**) in academic or professional work:
-
-```bibtex
-@software{dorval2026interpretiveseo,
-  author  = {Dorval, Gautier},
-  title   = {Interpretive SEO: Normative definition},
-  year    = {2026},
-  version = {0.3.2},
-  url     = {https://github.com/GautierDorval/interpretive-seo}
-}
-
+Doctrine version: 0.4.0

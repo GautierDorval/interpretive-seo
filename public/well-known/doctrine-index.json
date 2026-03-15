@@ -1,0 +1,40 @@
+{
+  "site": "https://interpretive-seo.org",
+  "generatedAt": "2026-03-15",
+  "version": "0.4.0",
+  "humanSurfaces": [
+    "/",
+    "/definition/",
+    "/context/",
+    "/source-precedence/",
+    "/response-legitimacy/",
+    "/anti-plausibility/",
+    "/output-constraints/",
+    "/fr/",
+    "/fr/definition/",
+    "/fr/context/",
+    "/fr/precedence-des-sources/",
+    "/fr/legitimite-de-reponse/",
+    "/fr/anti-plausibilite/",
+    "/fr/contraintes-de-sortie/"
+  ],
+  "machineSurfaces": [
+    "/ai-governance.json",
+    "/interpretation-policy.json",
+    "/response-legitimacy.json",
+    "/anti-plausibility.json",
+    "/output-constraints.json",
+    "/qlayer.json",
+    "/links.json",
+    "/ai-manifest.json",
+    "/interpretive-seo.jsonld",
+    "/entity-graph.jsonld",
+    "/datasets.jsonld",
+    "/llm-policy.json",
+    "/llms.txt",
+    "/llms-full.txt",
+    "/humans.txt",
+    "/doctrine-index.json",
+    "/governance-fingerprint.json"
+  ]
+}

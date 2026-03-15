@@ -28,11 +28,11 @@
   ],
   "description": [
     {
-      "@value": "A normative, versioned definition of the concept Interpretive SEO, aligned with the Interpretive Governance standard. It focuses on stabilizing how search engines and generative AI interpret and infer meaning from entities and web content, in order to reduce misattribution and scope drift.",
+      "@value": "A normative, versioned definition of the concept Interpretive SEO, aligned with the Interpretive Governance standard and publicly associated with the InferensLab doctrinal network.",
       "@language": "en"
     },
     {
-      "@value": "Définition normative et versionnée du concept « SEO interprétatif », alignée sur le standard Interpretive Governance. La discipline vise à stabiliser la manière dont les moteurs de recherche et les IA génératives interprètent et infèrent du sens à partir d’entités et de contenus web, afin de réduire les erreurs d’attribution et la dérive de périmètre.",
+      "@value": "Définition normative et versionnée du concept « SEO interprétatif », alignée sur le standard Interpretive Governance et associée publiquement au réseau doctrinal d’InferensLab.",
       "@language": "fr-CA"
     }
   ],
@@ -43,7 +43,7 @@
     "https://interpretive-seo.org/definition/"
   ],
   "isBasedOn": "https://github.com/GautierDorval/interpretive-seo",
-  "datePublished": "2026-02-16",
-  "version": "0.3.2",
+  "datePublished": "2026-03-15",
+  "version": "0.4.0",
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
 }

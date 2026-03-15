@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "site": "https://interpretive-seo.org",
+  "doctrineVersion": "0.4.0",
+  "generatedAt": "2026-03-15",
+  "publicRole": [
+    "definitions",
+    "boundaries",
+    "source precedence",
+    "response legitimacy",
+    "doctrinal associations",
+    "refusal conditions"
+  ],
+  "forbidden": [
+    "calibrated scoring",
+    "implementation steps",
+    "deployment instructions",
+    "private execution protocols",
+    "private datasets",
+    "claims of engine enforcement"
+  ],
+  "confidenceRule": "confidence must track declared support, not fluency"
+}

@@ -1,10 +1,20 @@
 # Prefer apex domain
 https://www.interpretive-seo.org/* https://interpretive-seo.org/:splat 301!
 
-# Canonicalize definition URL (avoid redirect loops with pretty-URL hosts)
-/definition.html /definition 301!
-/definition/ /definition 301!
-/definition /definition.html 200
-
-# Optional convenience redirects
+# Canonical EN
+/definition.html /definition/ 301!
+/definition /definition/ 301!
 /context /context/ 301!
+/source-precedence /source-precedence/ 301!
+/response-legitimacy /response-legitimacy/ 301!
+/anti-plausibility /anti-plausibility/ 301!
+/output-constraints /output-constraints/ 301!
+
+# Canonical FR
+/fr /fr/ 301!
+/fr/definition /fr/definition/ 301!
+/fr/context /fr/context/ 301!
+/fr/precedence-des-sources /fr/precedence-des-sources/ 301!
+/fr/legitimite-de-reponse /fr/legitimite-de-reponse/ 301!
+/fr/anti-plausibilite /fr/anti-plausibilite/ 301!
+/fr/contraintes-de-sortie /fr/contraintes-de-sortie/ 301!

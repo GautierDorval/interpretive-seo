@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -9,118 +8,165 @@
   <meta name="description" content="Context and provenance for Interpretive SEO. This section is explicitly non-normative and must not redefine the concept." />
   <meta name="robots" content="index,follow" />
   <meta name="author" content="Gautier Dorval" />
+  <meta name="theme-color" content="#0b0d12" />
+  <script>document.documentElement.classList.add('js');</script>
 
   <link rel="canonical" href="https://interpretive-seo.org/context/" />
+  <link rel="alternate" hreflang="en" href="https://interpretive-seo.org/context/" />
+  <link rel="alternate" hreflang="fr-CA" href="https://interpretive-seo.org/fr/context/" />
+  <link rel="alternate" hreflang="x-default" href="https://interpretive-seo.org/" />
 
-  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260226-1" />
-  <link rel="stylesheet" href="/assets/style.css?v=20260226-1" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=20260315-1" />
+  <link rel="stylesheet" href="/assets/style.css?v=20260315-1" />
 
   <meta property="og:site_name" content="Interpretive SEO" />
   <meta property="og:title" content="Context | Interpretive SEO" />
   <meta property="og:description" content="Context and provenance for Interpretive SEO. This section is explicitly non-normative and must not redefine the concept." />
-  <meta property="og:type" content="article" />
+  <meta property="og:type" content="website" />
   <meta property="og:url" content="https://interpretive-seo.org/context/" />
   <meta property="og:image" content="https://interpretive-seo.org/assets/og.png" />
   <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="fr_CA" />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Context | Interpretive SEO" />
   <meta name="twitter:description" content="Context and provenance for Interpretive SEO. This section is explicitly non-normative and must not redefine the concept." />
   <meta name="twitter:image" content="https://interpretive-seo.org/assets/og.png" />
 
-  <!-- Schema.org: WebPage (non-normative context) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "@id": "https://interpretive-seo.org/context/#webpage",
-    "url": "https://interpretive-seo.org/context/",
-    "name": "Context",
-    "description": "Context and provenance for Interpretive SEO. This section is explicitly non-normative and must not redefine the concept.",
-    "isPartOf": {
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "WebSite",
       "@id": "https://interpretive-seo.org/#website",
       "url": "https://interpretive-seo.org/",
-      "name": "Interpretive SEO"
+      "name": "Interpretive SEO",
+      "description": "Normative concept reference for stabilizing interpretation in AI-first search and retrieval (non-operational).",
+      "inLanguage": [
+        "en",
+        "fr-CA"
+      ],
+      "publisher": {
+        "@id": "https://interpretive-seo.org/#person"
+      }
     },
-    "inLanguage": "en",
-    "dateModified": "2026-02-26",
-    "author": {
+    {
       "@type": "Person",
+      "@id": "https://interpretive-seo.org/#person",
       "name": "Gautier Dorval",
-      "url": "https://gautierdorval.com/"
+      "url": "https://gautierdorval.com/",
+      "sameAs": [
+        "https://gautierdorval.com/",
+        "https://www.linkedin.com/in/gautier-dorval/",
+        "https://github.com/GautierDorval",
+        "https://github.com/GautierDorval/gautierdorval-identity"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "https://interpretive-seo.org/#interpretive-seo",
+      "name": "Interpretive SEO",
+      "alternateName": [
+        "SEO interprétatif",
+        "SEO interpretatif"
+      ],
+      "url": "https://interpretive-seo.org/",
+      "identifier": "https://interpretive-seo.org/#interpretive-seo",
+      "description": "Interpretive SEO is a discipline focused on stabilizing how search engines and generative AI systems interpret and infer meaning from entities and web content, in order to reduce attribution errors and scope drift.",
+      "inDefinedTermSet": "https://interpretive-governance.org/",
+      "isBasedOn": "https://github.com/GautierDorval/interpretive-seo",
+      "version": "0.4.0",
+      "datePublished": "2026-03-15",
+      "author": {
+        "@id": "https://interpretive-seo.org/#person"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://interpretive-seo.org/context/#webpage",
+      "url": "https://interpretive-seo.org/context/",
+      "name": "Context",
+      "description": "Context and provenance for Interpretive SEO. This section is explicitly non-normative and must not redefine the concept.",
+      "isPartOf": {
+        "@id": "https://interpretive-seo.org/#website"
+      },
+      "about": {
+        "@id": "https://interpretive-seo.org/#interpretive-seo"
+      },
+      "inLanguage": "en",
+      "dateModified": "2026-03-15",
+      "author": {
+        "@id": "https://interpretive-seo.org/#person"
+      }
     }
-  }
+  ]
+}
   </script>
+  <script src="/assets/site.js?v=20260315-1" defer></script>
 </head>
-
 <body>
   <header class="topbar">
     <div class="container">
-      <div class="brand">
-        <img alt="Interpretive SEO" height="34" width="34" src="/assets/logo.svg?v=20260226-1" />
-        <div>
-          <div><strong>Interpretive SEO</strong> <span class="badge">context</span></div>
-          <div class="muted" style="font-size:13px">Provenance only. This page is explicitly non-normative.</div>
+      <div class="topbar-inner">
+        <div class="brand">
+          <img alt="Interpretive SEO" height="34" width="34" src="/assets/logo.svg?v=20260315-1" />
+          <div>
+            <div><strong>Interpretive SEO</strong> <span class="badge">context</span></div>
+            <div class="muted" style="font-size:13px">Provenance only. This page is explicitly non-normative.</div>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <div class="lang-switch" aria-label="Language selector">
+            <a class="active" href="/context/">English</a>
+            <a class="" href="/fr/context/">Français</a>
+          </div>
+
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+            <span class="menu-toggle-label">Menu</span>
+            <span class="menu-toggle-icon" aria-hidden="true"></span>
+          </button>
         </div>
       </div>
 
-      <nav aria-label="Primary">
+      <nav id="primary-nav" class="site-nav" aria-label="Primary navigation" data-nav>
         <a class="" href="/">Home</a>
-        <a class="" href="/definition">Definition</a>
+        <a class="" href="/definition/">Definition</a>
         <a class="active" href="/context/">Context</a>
-        <a class="" href="/humans.txt">humans.txt</a>
-        <a href="/definition#fr">Français</a>
+        <a class="" href="/source-precedence/">Precedence</a>
+        <a class="" href="/links.json">links.json</a>
+        <a class="" href="/llms.txt">llms.txt</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
+    
     <h1>Context</h1>
-
     <div class="card">
-      <p>
-        Interpretive SEO, as defined on this site, is a machine-first, interpretive concept reference for search and retrieval systems (including generative AI surfaces).
-      </p>
-      <p class="muted">
-        This page provides contextual information only. It does not define, modify, or supersede the Interpretive SEO concept definition.
-      </p>
+      <p>This page provides provenance and doctrinal network context for Interpretive SEO.</p>
+      <p class="muted">It is explicitly non-normative. It does not define, modify, or supersede the concept definition.</p>
     </div>
-
-    <h2>Canonical specification</h2>
+    <h2>Canonical boundary</h2>
     <div class="card">
-      <p>
-        The canonical, normative specification is defined exclusively by the artifacts exposed at the root of this domain:
-      </p>
-      <p><a href="https://interpretive-seo.org/">https://interpretive-seo.org/</a></p>
-      <p class="muted">Reference version: v0.3.2.</p>
+      <div class="kv"><div>Canonical root</div><div><a href="https://interpretive-seo.org/">https://interpretive-seo.org/</a></div></div>
+      <div class="kv"><div>Normative definition</div><div><a href="https://interpretive-seo.org/definition/">https://interpretive-seo.org/definition/</a></div></div>
+      <div class="kv"><div>Reference version</div><div>v0.4.0</div></div>
     </div>
-
-    <h2>Origin</h2>
+    <h2>Doctrinal network</h2>
     <div class="card">
-      <p>
-        Interpretive SEO was initiated and architected by Gautier Dorval as part of a broader body of work on semantic stabilization, interpretive governance, entity disambiguation, and agentic systems.
-      </p>
-      <p class="muted">
-        Canonical identity reference:
-        <a href="https://gautierdorval.com/">gautierdorval.com</a>
-      </p>
+      <p>Interpretive SEO sits inside a broader doctrinal network.</p>
+      <div class="kv"><div>Parent standard</div><div><a href="https://interpretive-governance.org/">interpretive-governance.org</a> — upstream interpretive standard and conflict-resolution anchor.</div></div>
+      <div class="kv"><div>Institutional doctrinal association</div><div><a href="https://inferenslab.org/">inferenslab.org</a> — public institutional doctrine surface and network association.</div></div>
+      <div class="kv"><div>Authorial doctrinal source</div><div><a href="https://gautierdorval.com/">gautierdorval.com</a> — conceptual origin and editorial clarification surface.</div></div>
     </div>
-
     <h2>Normative separation</h2>
-    <div class="card">
-      <p>
-        This page is non-normative. It provides context only.
-      </p>
-      <p class="muted">
-        All normative definitions, boundaries, and conformance requirements are defined by the canonical artifacts at the root of the domain.
-      </p>
-    </div>
+    <div class="card"><p>/context/ is not allowed to override the hard governance files or the normative definition.</p></div>
+
 
     <div class="footer">
-      Last updated: 2026-02-26
-      This site is intentionally non-operational: it does not contain scoring weights, thresholds, calibrated protocols, datasets, or execution tooling.
-      Primary doctrinal surface: gautierdorval.com
+      Last updated: 2026-03-15. This site is intentionally non-operational: it does not contain scoring weights, thresholds, calibrated protocols, datasets, or execution tooling.
     </div>
   </main>
 </body>
