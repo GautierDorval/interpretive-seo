@@ -12,6 +12,7 @@ This site is doctrinal and intentionally non-operational.
 
 ## Forbidden public output
 - service packaging
+- portfolio exposure or product catalog logic on this surface
 - pricing or deliverables
 - operational procedures
 - scoring formulas, weights, thresholds

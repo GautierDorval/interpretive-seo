@@ -43,7 +43,10 @@
     "https://interpretive-seo.org/definition/"
   ],
   "isBasedOn": "https://github.com/GautierDorval/interpretive-seo",
-  "datePublished": "2026-03-15",
-  "version": "0.4.0",
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  "datePublished": "2026-03-29",
+  "version": "0.4.1",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "subjectOf": [
+    "https://gautierdorval.com/distributed-authority-map.json"
+  ]
 }

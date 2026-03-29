@@ -10,5 +10,6 @@ This file lists contextual and doctrinally related surfaces.
 
 ## Authorial doctrine and framework registry
 - Gautier Dorval doctrine: https://gautierdorval.com/
+- Distributed authority map: https://gautierdorval.com/distributed-authority-map.json
 - Framework registry: https://gautierdorval.com/frameworks/
 - Citations, inference, and distortion: https://gautierdorval.com/frameworks/citations-fidelite-interpretative/

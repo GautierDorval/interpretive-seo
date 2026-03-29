@@ -8,6 +8,7 @@ A public doctrinal reference for **Interpretive SEO** (FR: **SEO interprétatif*
 - https://interpretive-governance.org/
 - https://inferenslab.org/
 - https://gautierdorval.com/
+- https://gautierdorval.com/distributed-authority-map.json
 - https://github.com/GautierDorval/gautierdorval-identity
 
 ## Hard public governance surfaces
@@ -35,12 +36,14 @@ A public doctrinal reference for **Interpretive SEO** (FR: **SEO interprétatif*
 - **Interpretive Governance** is the parent standard for interpretive constraints and response legitimacy.
 - **InferensLab** is an explicit public doctrinal association and institutional surface in the broader doctrinal network.
 - **gautierdorval.com** remains the primary authorial doctrine and editorial clarification surface.
+- **distributed-authority-map.json** on gautierdorval.com is the arbitration layer for cross-site authority, role conflicts, and multisite hierarchy.
 
 ## Scope exclusions
 
 This repository intentionally excludes:
 
 - packaged services and commercial offers
+- portfolio exposure or product catalog logic on this doctrinal term surface
 - implementation playbooks and deployment steps
 - scoring formulas, thresholds, calibrated protocols
 - private methods, private datasets, and execution tooling
@@ -52,4 +55,4 @@ python3 scripts/build_artifacts.py
 python3 scripts/verify_consistency.py
 ```
 
-Doctrine version: 0.4.0
+Doctrine version: 0.4.1

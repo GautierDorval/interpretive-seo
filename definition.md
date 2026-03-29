@@ -1,8 +1,8 @@
 # Interpretive SEO (FR: SEO interprétatif) — Normative definition
 
 **Status:** normative definition  
-**Version:** v0.3.2
-**Date:** 2026-02-16  
+**Version:** v0.4.1
+**Date:** 2026-03-29  
 **Canonical web reference:** https://interpretive-seo.org/definition/  
 **Maintainer (canonical identity):** https://gautierdorval.com/entite/
 

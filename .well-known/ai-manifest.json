@@ -3,8 +3,8 @@
   "type": "canonical-concept-reference",
   "status": "normative definition (conceptual, non-executable)",
   "canonical": "https://interpretive-seo.org/",
-  "version": "0.4.0",
-  "releaseDate": "2026-03-15",
+  "version": "0.4.1",
+  "releaseDate": "2026-03-29",
   "language": [
     "en",
     "fr-CA"
@@ -28,14 +28,16 @@
     "sourcePrecedence_fr": "https://interpretive-seo.org/fr/precedence-des-sources/",
     "responseLegitimacy_fr": "https://interpretive-seo.org/fr/legitimite-de-reponse/",
     "antiPlausibility_fr": "https://interpretive-seo.org/fr/anti-plausibilite/",
-    "outputConstraints_fr": "https://interpretive-seo.org/fr/contraintes-de-sortie/"
+    "outputConstraints_fr": "https://interpretive-seo.org/fr/contraintes-de-sortie/",
+    "distributedAuthorityMap": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "upstream": {
     "repo": "https://github.com/GautierDorval/interpretive-seo",
     "interpretiveGovernance": "https://interpretive-governance.org/",
     "inferenslab": "https://inferenslab.org/",
     "ssaEA2Doctrine": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
-    "qLayer": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
+    "qLayer": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md",
+    "distributedAuthorityMap": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "provenance": {
     "authorName": "Gautier Dorval",
@@ -48,7 +50,10 @@
       "https://interpretive-seo.org/context/",
       "https://interpretive-seo.org/fr/context/"
     ],
-    "normativeRootOnly": true
+    "normativeRootOnly": true,
+    "notPortfolioSurface": true,
+    "notCommercialSurface": true,
+    "multisiteConflictResolution": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "machineReferences": {
     "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld",

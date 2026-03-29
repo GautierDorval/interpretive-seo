@@ -1,7 +1,7 @@
 # Dual Web index — Interpretive SEO
 
-Version: 0.4.0
-Release date: 2026-03-15
+Version: 0.4.1
+Release date: 2026-03-29
 
 ## Human surfaces
 - https://interpretive-seo.org/
@@ -33,3 +33,5 @@ Release date: 2026-03-15
 - https://interpretive-seo.org/datasets.jsonld
 - https://interpretive-seo.org/llms.txt
 - https://interpretive-seo.org/llms-full.txt
+- https://gautierdorval.com/distributed-authority-map.json (cross-site arbitration only)
+- https://gautierdorval.com/distributed-authority-map.json (cross-site arbitration only)

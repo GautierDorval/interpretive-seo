@@ -1,5 +1,14 @@
 # Changelog — Interpretive SEO (FR: SEO interprétatif)
 
+## v0.4.1 — 2026-03-29
+
+### Added
+- Added explicit multisite authority arbitration via `https://gautierdorval.com/distributed-authority-map.json`.
+- Added hard separation rules confirming that `interpretive-seo.org` is not a portfolio surface, product hub, or commercial routing layer.
+
+### Changed
+- Updated `ai-governance.json`, `ai-manifest.json`, `interpretation-policy.json`, `links.json`, `llm-policy.json`, `entity-graph.jsonld`, `interpretive-seo.jsonld`, `README.md`, `GOVERNANCE.md`, `CONTENT-POLICY.md`, `TERMS.md`, `llms.txt`, `llms-full.txt`, `llm-guidelines.md`, `readme.llm.txt`, `humans.txt`, and the EN/FR public pages to integrate multisite arbitration without exposing products on doctrinal front surfaces.
+
 ## v0.4.0 — 2026-03-15
 
 ### Added

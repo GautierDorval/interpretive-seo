@@ -19,6 +19,9 @@
         },
         {
           "@id": "https://gautierdorval.com/#website"
+        },
+        {
+          "@id": "https://gautierdorval.com/distributed-authority-map.json#distributed-authority-map"
         }
       ]
     },
@@ -55,6 +58,13 @@
       "name": "Gautier Dorval",
       "url": "https://gautierdorval.com/",
       "description": "Primary doctrinal source and authorial context surface."
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://gautierdorval.com/distributed-authority-map.json#distributed-authority-map",
+      "name": "Distributed authority map",
+      "url": "https://gautierdorval.com/distributed-authority-map.json",
+      "description": "Cross-site authority allocation map used for multisite role arbitration, hierarchy clarification, and conflict resolution across the public doctrinal ecosystem."
     }
   ]
 }

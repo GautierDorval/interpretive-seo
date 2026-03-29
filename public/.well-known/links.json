@@ -2,8 +2,8 @@
   "name": "Interpretive SEO",
   "alternateName": "SEO interprétatif",
   "status": "normative-definition",
-  "version": "0.4.0",
-  "date": "2026-03-15",
+  "version": "0.4.1",
+  "date": "2026-03-29",
   "canonical": {
     "web_definition": "https://interpretive-seo.org/",
     "definition_html": "https://interpretive-seo.org/definition/",
@@ -23,7 +23,8 @@
     "response_legitimacy_json": "https://interpretive-seo.org/response-legitimacy.json",
     "anti_plausibility_json": "https://interpretive-seo.org/anti-plausibility.json",
     "output_constraints_json": "https://interpretive-seo.org/output-constraints.json",
-    "qlayer_json": "https://interpretive-seo.org/qlayer.json"
+    "qlayer_json": "https://interpretive-seo.org/qlayer.json",
+    "distributed_authority_map": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "mirror": {
     "repository_fr_slug": "https://github.com/GautierDorval/seo-interpretatif"
@@ -41,20 +42,21 @@
     "parent_standard": "https://interpretive-governance.org/",
     "institutional_doctrinal_surface": "https://inferenslab.org/",
     "ssa_e_a2_doctrine_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/tree/v1.2.0",
-    "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md"
+    "q_layer_v1_2_0": "https://github.com/GautierDorval/ssa-e-a2-doctrine/blob/v1.2.0/layers/q-layer.md",
+    "distributed_authority_map": "https://gautierdorval.com/distributed-authority-map.json"
   },
   "doctrinal_network": {
     "interpretive_governance": {
       "url": "https://interpretive-governance.org/",
-      "role": "parent interpretive standard"
+      "role": "parent interpretive standard; not a product hub or portfolio surface"
     },
     "inferenslab": {
       "url": "https://inferenslab.org/",
-      "role": "public institutional doctrinal hub and association surface"
+      "role": "public institutional doctrinal hub and association surface; not an override of the term definition"
     },
     "gautier_dorval": {
       "url": "https://gautierdorval.com/",
-      "role": "authorial doctrinal source and editorial clarification surface"
+      "role": "authorial doctrinal source, editorial clarification surface, and distributed authority arbitration anchor"
     }
   },
   "editorial_context": {
@@ -65,7 +67,8 @@
     "frameworks_registry": "https://gautierdorval.com/frameworks/",
     "citations_fidelite_interpretative_framework": "https://gautierdorval.com/frameworks/citations-fidelite-interpretative/",
     "context_fr": "https://interpretive-seo.org/fr/context/",
-    "context_en": "https://interpretive-seo.org/context/"
+    "context_en": "https://interpretive-seo.org/context/",
+    "distributed_authority_governance_fr_definition": "https://gautierdorval.com/definitions/gouvernance-d-autorite-interpretative-distribuee/"
   },
   "clarifications": {
     "seo_interpretatif_vs_entity_seo_geo_aeo": {
