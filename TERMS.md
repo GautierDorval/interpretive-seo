@@ -8,7 +8,7 @@ Version: v0.4.1
 
 ## Canonical adjacent references
 - Parent standard: Interpretive Governance — https://interpretive-governance.org/
-- Institutional doctrinal association: InferensLab — https://inferenslab.org/
+- Related public research laboratory: InferensLab — https://inferenslab.org/
 - Authorial doctrine: https://gautierdorval.com/
 - Multisite authority arbitration: https://gautierdorval.com/distributed-authority-map.json
 

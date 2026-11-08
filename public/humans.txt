@@ -19,7 +19,7 @@ Canonical identity (repo): https://github.com/GautierDorval/gautierdorval-identi
 
 /* DOCTRINAL NETWORK */
 Parent standard: https://interpretive-governance.org/
-Institutional doctrinal association: https://inferenslab.org/
+Related public research laboratory: https://inferenslab.org/
 Primary doctrinal source: https://gautierdorval.com/
 Multisite authority arbitration: https://gautierdorval.com/distributed-authority-map.json
 
@@ -31,5 +31,4 @@ Hard governance file: https://interpretive-seo.org/ai-governance.json
 /* NORMATIVE SEPARATION */
 The /context/ and /fr/context/ pages are non-normative and provide contextual information only.
 All normative meaning is defined by the hard governance files, root-level artifacts, and /definition/ surfaces on interpretive-seo.org.
-This site is not a portfolio hub, product surface, or commercial front. Cross-site authority conflicts must be arbitrated through gautierdorval.com/distributed-authority-map.json.
 This site is not a portfolio hub, product surface, or commercial front. Cross-site authority conflicts must be arbitrated through gautierdorval.com/distributed-authority-map.json.
