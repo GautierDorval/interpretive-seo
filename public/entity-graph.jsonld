@@ -48,9 +48,9 @@
     {
       "@type": "CreativeWork",
       "@id": "https://inferenslab.org/#website",
-      "name": "InferensLab — doctrine",
+      "name": "InferensLab",
       "url": "https://inferenslab.org/",
-      "description": "Public institutional doctrinal hub associated with the Interpretive SEO doctrinal network."
+      "description": "Website of InferensLab, a public research laboratory (bounded research programs, preregistered protocols, evidence states), related to the Interpretive SEO doctrinal network. It grants no accreditation and does not override the term definition."
     },
     {
       "@type": "CreativeWork",

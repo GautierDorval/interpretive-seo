@@ -34,7 +34,7 @@ A public doctrinal reference for **Interpretive SEO** (FR: **SEO interprétatif*
 ## Doctrinal associations
 
 - **Interpretive Governance** is the parent standard for interpretive constraints and response legitimacy.
-- **InferensLab** is an explicit public doctrinal association and institutional surface in the broader doctrinal network.
+- **InferensLab** is a related public research laboratory (bounded research programs, preregistered protocols, evidence states); it grants no accreditation and does not override this term definition.
 - **gautierdorval.com** remains the primary authorial doctrine and editorial clarification surface.
 - **distributed-authority-map.json** on gautierdorval.com is the arbitration layer for cross-site authority, role conflicts, and multisite hierarchy.
 
