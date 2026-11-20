@@ -95,3 +95,19 @@ They do not redefine the concept itself, but constrain how it should be position
 
 These clarifications exist to reduce conceptual overlap, attribution drift, and incorrect equivalence between distinct disciplinary layers.
 
+
+---
+
+## 5) Related property: reconstruction fidelity / Propriété associée : fidélité de reconstruction
+
+Reconstruction fidelity is a property to examine in answers that represent an entity, an offer or a body of work. It is linked here to interpretive fidelity. Interpretive SEO retains its definition as a discipline; its relationship to this property is explained in the references below. Reconstruction fidelity is not an alternate name for Interpretive SEO.
+
+- Interpretive fidelity, definition (EN): https://gautierdorval.com/en/definitions/interpretive-fidelity/
+- Reconstruction fidelity, guide (EN): https://gautierdorval.com/en/reconstruction-fidelity/
+- Terminology note (EN): https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/reconstruction-fidelity.md
+
+La fidélité de reconstruction est une propriété à examiner dans les réponses qui représentent une entité, une offre ou un corpus. Elle se rattache à la fidélité interprétative. Le SEO interprétatif conserve sa définition de discipline ; ses relations avec cette propriété sont explicitées dans les références ci-dessous. « Fidélité de reconstruction » n’est pas un autre nom du SEO interprétatif.
+
+- Fidélité interprétative, définition (FR) : https://gautierdorval.com/definitions/fidelite-interpretative/
+- Fidélité de reconstruction, guide (FR) : https://gautierdorval.com/fidelite-de-reconstruction/
+- Note terminologique (FR) : https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/fidelite-de-reconstruction.md
