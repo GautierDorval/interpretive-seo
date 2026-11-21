@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 from typing import List
@@ -15,8 +16,10 @@ REQUIRED = [
     'index.html','definition/index.html','context/index.html','source-precedence/index.html','response-legitimacy/index.html','anti-plausibility/index.html','output-constraints/index.html',
     'fr/index.html','fr/definition/index.html','fr/context/index.html','fr/precedence-des-sources/index.html','fr/legitimite-de-reponse/index.html','fr/anti-plausibilite/index.html','fr/contraintes-de-sortie/index.html',
     '.well-known/ai-governance.json','well-known/ai-governance.json','public/.well-known/ai-governance.json','public/well-known/ai-governance.json',
-    'doctrine-index.json','governance-fingerprint.json','public/doctrine-index.json','public/governance-fingerprint.json','public/_headers','public/_redirects','_headers','_redirects'
+    'doctrine-index.json','governance-fingerprint.json','public/doctrine-index.json','public/governance-fingerprint.json','public/_headers','public/_redirects','_headers','_redirects',
+    'public/llms.txt','public/llms-full.txt','public/humans.txt','public/index.html','public/definition/index.html','public/fr/index.html','public/fr/definition/index.html'
 ]
+HUMAN_PAGES = ['index.html','definition/index.html','context/index.html','source-precedence/index.html','response-legitimacy/index.html','anti-plausibility/index.html','output-constraints/index.html','fr/index.html','fr/definition/index.html','fr/context/index.html','fr/precedence-des-sources/index.html','fr/legitimite-de-reponse/index.html','fr/anti-plausibilite/index.html','fr/contraintes-de-sortie/index.html']
 JSON_FILES = [
     'links.json','ai-manifest.json','ai-governance.json','interpretation-policy.json','response-legitimacy.json','anti-plausibility.json','output-constraints.json','qlayer.json',
     'interpretive-seo.jsonld','entity-graph.jsonld','datasets.jsonld','llm-policy.json','doctrine-index.json','governance-fingerprint.json',
@@ -52,6 +55,22 @@ def main() -> int:
         for mirror in [f'public/{rel}', f'.well-known/{rel}', f'well-known/{rel}', f'public/.well-known/{rel}', f'public/well-known/{rel}']:
             if read(mirror) != root_text:
                 errors.append(f'Drift detected between {rel} and {mirror}')
+    # public/ is a byte-for-byte mirror of the served root files (llms*.txt, pages, governance files, assets).
+    for path in sorted((ROOT / 'public').rglob('*')):
+        if not path.is_file():
+            continue
+        rel = path.relative_to(ROOT / 'public').as_posix()
+        if not (ROOT / rel).is_file():
+            errors.append(f'public/{rel} has no root source file')
+        elif path.read_bytes() != (ROOT / rel).read_bytes():
+            errors.append(f'Drift detected between {rel} and public/{rel}')
+    for rel in ['doctrine-index.json', 'governance-fingerprint.json']:
+        if json.loads(read(rel)).get('version') != version:
+            errors.append(f'{rel} version must be {version}')
+    for rel in HUMAN_PAGES:
+        for found in re.findall(r'"version":\s*"([^"]+)"', read(rel)):
+            if found != version:
+                errors.append(f'{rel} JSON-LD version {found} must be {version}')
     version_checks = ['README.md','CHANGELOG.md','CITATION.cff','links.json','ai-manifest.json','llms.txt','llms-full.txt','humans.txt','ai-governance.json','public/index.html','public/fr/index.html']
     for rel in version_checks:
         txt = read(rel)

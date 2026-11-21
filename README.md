@@ -55,4 +55,6 @@ python3 scripts/build_artifacts.py
 python3 scripts/verify_consistency.py
 ```
 
+`build_artifacts.py` reads the doctrine version from `VERSION` and its release date from the matching `CHANGELOG.md` heading, regenerates `doctrine-index.json` and `governance-fingerprint.json`, then copies the governance files to `.well-known/`, `well-known/` and their `public/` counterparts, and the other served root files (`llms.txt`, `llms-full.txt`, `humans.txt`, pages and assets) to `public/`. Edit the root files only; `verify_consistency.py` fails on any mirror drift or version mismatch.
+
 Doctrine version: 0.4.1
