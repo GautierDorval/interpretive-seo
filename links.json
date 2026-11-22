@@ -77,6 +77,18 @@
       "scope": "Clarifies relationships, distinctions, and levels of action between adjacent optimization disciplines without redefining their canonical meanings."
     }
   },
+  "related_properties": {
+    "reconstruction_fidelity": {
+      "type": "related-property",
+      "relation": "Property examined in answers that represent an entity, an offer or a body of work; linked to interpretive fidelity. Not an alternate name for Interpretive SEO.",
+      "definition_en": "https://gautierdorval.com/en/definitions/interpretive-fidelity/",
+      "definition_fr": "https://gautierdorval.com/definitions/fidelite-interpretative/",
+      "guide_en": "https://gautierdorval.com/en/reconstruction-fidelity/",
+      "guide_fr": "https://gautierdorval.com/fidelite-de-reconstruction/",
+      "terminology_note_en": "https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/reconstruction-fidelity.md",
+      "terminology_note_fr": "https://github.com/GautierDorval/interpretive-governance-manifest/blob/main/concepts/fidelite-de-reconstruction.md"
+    }
+  },
   "machine": {
     "jsonldDefinedTerm": "https://interpretive-seo.org/interpretive-seo.jsonld",
     "entityGraph": "https://interpretive-seo.org/entity-graph.jsonld",

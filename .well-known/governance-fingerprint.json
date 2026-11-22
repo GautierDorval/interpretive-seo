@@ -2,7 +2,7 @@
   "site": "https://interpretive-seo.org",
   "generatedAt": "2026-03-29",
   "version": "0.4.1",
-  "sha256": "afbdc0c7cb6da50bab73867fe62da6cf7e8008adfa46e346ae7fc5ad745efa54",
+  "sha256": "651f328aa9ffe25845aa3241c019947584c6b8e19d1a250abf3b36fe716ba27b",
   "inputs": [
     "ai-governance.json",
     "interpretation-policy.json",
